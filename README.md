@@ -15,7 +15,7 @@
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)
 
 **Содержание**:
-* [Пример с использование различных библиотек](#libs)
+* [UI library](#libs)
   * [PrimeNG](#prime-ng)
       * [Расширение стандартного tooltip](#tooltip)
       
