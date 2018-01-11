@@ -23,4 +23,4 @@
 
 ### Пример с использование различных библиотек
 #### PrimeNG
-* [Расширение стандартного tooltip](https://plnkr.co/edit/RmGe2BDcEg92D6hner6f?p=preview)
+* [Расширение стандартного tooltip](https://embed.plnkr.co/JRwaEt8LASWX9cyNATsz/)
