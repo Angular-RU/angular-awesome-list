@@ -21,6 +21,6 @@
       
 -----------------
 
-### Пример с использование различных библиотек
+### UI library
 #### PrimeNG
 * [Расширение стандартного tooltip](https://embed.plnkr.co/JRwaEt8LASWX9cyNATsz/)
