@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://tipe.io" target="_blank">
+  <a href="https://angular-ru.github.io" target="_blank">
     <img src="/media/awesome-angular.png" alt="Awesome Angular" />
   </a>
 </p>
@@ -17,7 +17,7 @@
 **Содержание**:
 * [UI library](#ui-library)
   * [PrimeNG](#primeng)
-      * [Расширение стандартного tooltip](#tooltip)
+      * [Расширение стандартного tooltip](#расширение-стандартного-tooltip)
       
 -----------------
 
