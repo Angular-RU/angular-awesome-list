@@ -17,10 +17,14 @@
 **Содержание**:
 * [UI library](#ui-library)
   * [PrimeNG](#primeng)
-      * [Расширение стандартного tooltip](#расширение-стандартного-tooltip)
+      * [Tooltips](#tooltips)
       
 -----------------
 
 ### UI library
+
 #### PrimeNG
+PrimeNG это богатая коллекция UI компонентов для Angular
+
+##### Tooltips
 * [Расширение стандартного tooltip](https://embed.plnkr.co/JRwaEt8LASWX9cyNATsz/)
