@@ -83,7 +83,7 @@
 * [Рауль Хименес](https://twitter.com/elecash/)
 * [Киро Нанес](https://twitter.com/cironunesdev/)
 * [Максим Сальников (@webmaxru)](https://twitter.com/webmaxru)
-* [Deborah Kurata](https://twitter.com/deborahkurata)
+* [Дебора Курата](https://twitter.com/deborahkurata)
 * [Минько Гечев](https://twitter.com/mgechev)
 * [Шай Резник](https://twitter.com/shai_reznik)
 
