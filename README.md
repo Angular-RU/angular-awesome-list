@@ -4,7 +4,7 @@
   </a>
 </p>
 
-# Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) [![chatroom icon](/media/chat.png)](https://t.me/angular_ru)
+# Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gdi2290/awesome-angular) [![chatroom icon](/media/chat.png)](https://t.me/angular_ru)
 
 Здесь вы найдете список полезных репозиториев, стартеры, примеры, учебные пособия, компоненты, модули, видеоролики и все остальное причастное к экосистеме Angular.
 
@@ -16,24 +16,16 @@
 
 
 **Содержание**:
-<!-- Также добавляется на habrahabr.ru (отсюда и такая структура) -->
 
-<ul>
-  <li>
-    <a href="#angular">Angular</a>
-    <ul>
-      <li><a href="#angular-official">Официальные ресурсы</a></ul>
-    </ul>
-    <ul>
-      <li>
-        <a href="#angular-ui-library">UI библиотеки</a>
-        <ul>
-          <li><a href="#primeng">PrimeNG</a></ul>
-        </ul>
-      </li>
-    </ul>
-  </li>  
-</ul>
+* [Angular](#angular)
+  * [Официальные ресурсы](#angular-official)
+  * [Новости в twitter](#twitter)
+  * [Сообщества](#community)
+  * [Серверный рендеринг](#server-side-rendering)
+  * [UI библиотеки](#angular-ui)
+    * [PrimeNG](#primeng)
+    
+--------
 
 <h2 id="angular">Angular</h2>
 
@@ -48,7 +40,7 @@
 * [Быстрый старт](https://angular.io/guide/quickstart)
 * [GitHub репозиторий](https://github.com/angular/angular)
 
-<h3 id="angular">Новости в твиттере</h3>
+<h3 id="twitter">Новости в twitter</h3>
 
 > Данный список хорош тем, что благодаря нему, вы будете в курсе основных событий.
 
@@ -82,7 +74,7 @@
 * [Джефф Whelpley](https://twitter.com/jeffwhelpley/)
 * [Рауль Хименес](https://twitter.com/elecash/)
 * [Киро Нанес](https://twitter.com/cironunesdev/)
-* [Максим Сальников (@webmaxru)](https://twitter.com/webmaxru)
+* [Максим Сальников](https://twitter.com/webmaxru)
 * [Дебора Курата](https://twitter.com/deborahkurata)
 * [Минько Гечев](https://twitter.com/mgechev)
 * [Шай Резник](https://twitter.com/shai_reznik)
@@ -95,7 +87,7 @@
 * [Джефф Кросс (@jeffbcross)](https://twitter.com/jeffbcross)
 * [Виктор Савкин (@victorsavkin)](https://twitter.com/victorsavkin)
 * [Павел Козловский (@pkozlowski_os)](https://twitter.com/pkozlowski_os)
-* [Алексей Охрименко](https://twitter.com/Ai_boy)
+* [Алексей Охрименко (@Ai_boy)](https://twitter.com/Ai_boy)
 
 ##### Сообщества:
 
@@ -111,7 +103,29 @@
 
 Этот список далеко не полный...
 
-<h3 id="angular">UI библиотеки</h3>
+<h3 id="community">Сообщества</h3>
+
+* [`Angular сообщества в twitter`](https://twitter.com/search?f=users&vertical=default&q=%23angular&src=tyah)
+
+![](https://habrastorage.org/webt/uo/hi/ce/uohices8pudw2cib-lji_yp4wte.png)
+
+* [Канал в Gitter](https://gitter.im/angular/angular)
+* [Вопросы по Angular на StackOverflow](https://stackoverflow.com/questions/tagged/angular)
+* [Angular на Reddit](https://www.reddit.com/r/Angular2/)
+* [Подкасты от AngularAir](http://angularair.com/)
+* [Подкатсы от Devchat по Angular](https://devchat.tv/adv-in-angular)
+* [Журнал ng-newsletter](http://www.ng-newsletter.com)
+* [Витрина приложений от Angular Expo](http://angularexpo.com/)
+* [Чат от AngularBuddies в Slack](https://angularbuddies.slack.com/messages/ng-2/)
+* [Чат от dartlang.slack.com в Slack](https://dartlang.slack.com/messages/angular2) 
+* [Подборка популярных Twitter's аккаунтов](http://theherdlocker.com/tweet/popularity/angular2)
+
+<h3 id="server-side-rendering"></h3>
+
+* [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
+* [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
+
+<h3 id="angular-ui">UI библиотеки</h3>
 
 > UI-библиотека — это набор интерфейсных компонентов
 
