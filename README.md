@@ -120,7 +120,7 @@
 * [Чат от dartlang.slack.com в Slack](https://dartlang.slack.com/messages/angular2) 
 * [Подборка популярных Twitter's аккаунтов](http://theherdlocker.com/tweet/popularity/angular2)
 
-<h3 id="server-side-rendering"></h3>
+<h3 id="server-side-rendering">Серверный рендеринг</h3>
 
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
