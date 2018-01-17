@@ -8,7 +8,7 @@
 
 Здесь вы найдете список полезных репозиториев, стартеры, примеры, учебные пособия, компоненты, модули, видеоролики и все остальное причастное к экосистеме Angular.
 
- [![Angular-RU](https://img.shields.io/badge/Telegram_chat:-Angular_RU-dd0031.svg?style=flat)](https://t.me/angular_ru)
+ [![Angular-RU](https://img.shields.io/badge/Telegram_chat:-Angular_RU-216bc1.svg?style=flat)](https://t.me/angular_ru)
 
 ##### Current Angular version:
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/~angular)
