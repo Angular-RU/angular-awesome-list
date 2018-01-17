@@ -4,9 +4,11 @@
   </a>
 </p>
 
-# Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gdi2290/awesome-angular) [![chatroom icon](/media/chat.png)](https://t.me/angular_ru)
+# Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gdi2290/awesome-angular)
 
 Здесь вы найдете список полезных репозиториев, стартеры, примеры, учебные пособия, компоненты, модули, видеоролики и все остальное причастное к экосистеме Angular.
+
+ [![Angular-RU](https://img.shields.io/badge/Telegram_chat:-Angular_RU-dd0031.svg?style=flat)](https://t.me/angular_ru)
 
 ##### Current Angular version:
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/~angular)
@@ -22,6 +24,8 @@
   * [Новости в twitter](#twitter)
   * [Сообщества](#community)
   * [Серверный рендеринг](#server-side-rendering)
+  * [Material Design](#material)
+  * [Cheatsheet (чит-лист)](#cheatsheet)
   * [UI библиотеки](#angular-ui)
     * [PrimeNG](#primeng)
     
@@ -124,6 +128,24 @@
 
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
+
+<h3 id="material">Material Design</h3>
+
+* [Официальный репозиторий Angular Material Design (GitHub)](https://github.com/angular/material2)
+* [Коллекция Material Design компонентов (md2)](https://github.com/Promact/md2) 
+* [Коллекция компонентов на основе материала Material Design Lite (angular2-mdl)](https://www.npmjs.com/package/angular2-mdl) 
+* [Компоненты, созданные с помощью Google Material Design Lite framework (mdl-ext)](https://www.npmjs.com/package/mdl-ext)
+* [Компоненты Materialize library (ng2-materialize)](https://github.com/sherweb/ng2-materialize)
+* [Material Light](https://github.com/YagoLopez/material-light) 
+* [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
+
+
+<h3 id="cheatsheet">Cheatsheet (чит-лист)</h3>
+
+* [Официальный cheatsheet от Angular](https://angular.io/guide/cheatsheet)
+* [Официальный cheatsheet по AngularDart](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
+* [Еще один cheatsheet для AngularDart](https://github.com/andresaraujo/angular2_cheatsheet_dart)
+* [Чек-лист Angular Performance](https://github.com/mgechev/angular-performance-checklist)
 
 <h3 id="angular-ui">UI библиотеки</h3>
 
