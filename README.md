@@ -29,6 +29,7 @@
     * [Material Design](#material)
   * [Важные особенности](#features)
     * [Директивы](#directives)
+    * [Компоненты](#components)
     * [Шаблоны](#templates)
     * [Обнаружение изменений](#change-detection)
     * [Внедрение зависимостей](#dependency-injection)
@@ -302,7 +303,7 @@ export class MyComponent {
 Самый распространенный способ получить данные от web-служб — это через HttpClient сервис доступный для внедрения зависимостей в ваших компонентах. Angular HttpClient довольно прост. Все, что нам нужно сделать, это вызвать метода get и передать ему url. Данный метод get возвращает объект Observable. Этот класс является частью библиотеки rxjs, которая используется во многих местах Angular'а.
 
 ```ts
-// business-logic.service.ts
+// rest.service.ts
 @Injectable()
 export class RestService {
 
@@ -325,15 +326,16 @@ export class RestService {
 // my-component.component.ts
 @Component({ /* .. */ })
 export class MyComponent {
+
   constructor(private rest: RestService) {}
   
   // Observable classic examples
   public getFields() {
     this.rest.getByObservable('http://anyurl.com').subscibe(value =>{
-        // value - результат
+      // value - результат
     },
     error => {
-        // error - объект ошибки
+      // error - объект ошибки
     });
   }
   
