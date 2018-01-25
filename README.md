@@ -27,7 +27,17 @@
   * [Cheatsheet (чит-лист)](#cheatsheet)
   * [UI библиотеки](#angular-ui)
     * [Material Design](#material)
-    * [PrimeNG](#primeng)
+  * [Важные особенности](#features)
+    * [Директивы](#directives)
+    * [Шаблоны](#templates)
+    * [Обнаружение изменений](#change-detection)
+    * [Внедрение зависимостей](#dependency-injection)
+    * [Пайпы](#pipes)
+    * [Web Workers](#web-workers)
+    * [HTTP](#http)
+    * [Роутинг](#router)
+    * [Тестирование](#test)
+    * [Ahead-of-Time компиляция](#aot)
     
 --------
 
@@ -136,11 +146,7 @@
 * [Еще один cheatsheet для AngularDart](https://github.com/andresaraujo/angular2_cheatsheet_dart)
 * [Чек-лист Angular Performance](https://github.com/mgechev/angular-performance-checklist)
 
-<h3 id="angular-ui">UI библиотеки</h3>
-
-> UI-библиотека — это набор интерфейсных компонентов
-
-<h4 id="material">Material Design</h4>
+<h3 id="material">Material Design</h3>
 
 * [Официальный репозиторий Angular Material Design (GitHub)](https://github.com/angular/material2)
 * [Коллекция Material Design компонентов (md2)](https://github.com/Promact/md2) 
@@ -150,10 +156,216 @@
 * [Material Light](https://github.com/YagoLopez/material-light) 
 * [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
 
-<h4 id="primeng">PrimeNG</h4>
 
-> PrimeNG это богатая коллекция UI компонентов для Angular
+<h3 id="features">Важные особенности</h3>
 
-##### Примеры
-* [Расширение стандартного tooltip](https://embed.plnkr.co/JRwaEt8LASWX9cyNATsz/)
+<h3 id="directives">Директивы</h3>
+
+Директивы позволяют получать прямой доступ к DOM ваших элементов.
+
+```ts
+@Directive({
+ selector: '[html-attr-name]'
+})
+export class MyDirective {
+  // ...
+}
+```
+
+<h3 id="components">Компоненты</h3>
+
+Компонент - это точно такая же директива, за исключением того, что в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Компоненты обычно используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
+
+```ts
+@Component({
+ selector: 'html-element-name'
+})
+export class MyComponent {
+  // ...
+}
+```
+
+<h3 id="templates">Шаблоны</h3>
+
+Шаблон - это ваша html-разметка, в которой вы можете описывать ваши взаимодействия с DOM на основе модели данных и событий вашего класса компонента (в примере, контроллер MyComponent).
+
+```ts
+@Component({
+ template: 'my-component.component.html'
+})
+export class MyComponent {
+ 
+  public title: string = "Hello world";
+  
+  // ..
+
+}
+```
+
+
+```html
+<!-- my-component.component.html -->
+Интерполяция: {{ title }} <br> 
+Идентичная интерполяция: {{ this.title }}
+```
+
+<h3 id="change-detection">Обнаружение изменений</h3>
+
+Каждый компонент имеет свой собственный детектор изменений, который гарантирует проверку привязок данных, определенных шаблоне.
+
+<h3 id="dependency-injection">Внедрение зависимостей</h3>
+
+Внедрение зависимостей (англ. Dependency Injection) — это композиция структурных шаблонов проектирования, при которой за каждую функцию приложения отвечает один, условно независимый объект (сервис), который может иметь необходимость использовать другие объекты (зависимости), известные ему интерфейсами. Зависимости передаются (внедряются) сервису в момент его создания.
+
+
+```ts
+// logger.service.ts
+@Injectable()
+export class LoggerService {
+  // ..
+  
+  public get trace() {
+    return console.debug.bind(console);
+  }
+  
+}
+```
+
+```ts
+// my-component.component.ts
+@Component({ /* .. */ })
+export class MyComponent {
+ 
+  constructor(private logger: LoggerService) {
+    logger.trace('Init MyComponent');
+  }
+
+}
+```
+
+<h3 id="pipes">Пайпы</h3>
+
+Пайп (pipe) представляет собой особый обработчик, который позволяет форматировать отображаемые значения
+
+```ts
+// my-component.component.ts
+@Component({ /* .. */ })
+export class MyComponent {
+  public fields = [ { id: 1 }, { id: 2 } ];
+}
+```
+
+```html
+<!-- my-component.component.html -->
+Читаемый вывод объекта: 
+<pre> {{ fields | json }} </pre>
+```
+
+Помимо стандартных, вы можете писать собственные
+
+```ts
+@Pipe({ name: 'factorial' })
+export class FactorialPipe implements PipeTransform {
+  transform(value: number, args?: any): number {
+    if(value<=0) return 0;
+     
+    let result = 1;
+    for(let i=1; i<=value; i++){
+        result = result * i;
+    }
+    
+    return result;
+  }
+}
+```
+
+```ts
+// my-component.component.ts
+@Component({ /* .. */ })
+export class MyComponent {
+  public x = 5;
+}
+```
+
+```html
+<!-- my-component.component.html -->
+Факториал числа {{ x }} равен {{ x | factorial }}
+<!-- Факториал числа 5 равен 120 -->
+```
+
+<h3 id="web-workers">Web Workers</h3>
+
+Поддержка Web Worker в Angular предназначена для упрощенного распараллеливания в вашем приложении. Когда ваше приложение запускается, Angular проводит всю основную работу по обработке вашей логики в отдельных потоках, ядро выполняет вычисление в своем рабочем потоке, в то время как другие функции могут и вовсе выполняться не в потоках.
+
+<h3 id="http">HTTP</h3>
+
+Самый распространенный способ получить данные от web-служб — это через HttpClient сервис доступный для внедрения зависимостей в ваших компонентах. Angular HttpClient довольно прост. Все, что нам нужно сделать, это вызвать метода get и передать ему url. Данный метод get возвращает объект Observable. Этот класс является частью библиотеки rxjs, которая используется во многих местах Angular'а.
+
+```ts
+// business-logic.service.ts
+@Injectable()
+export class RestService {
+
+  constructor(private httpClient: HttpClient) {}
+  
+  public getByObservable(url: string): Observable<any> {
+      return this.httpClient.get(url);
+  }
+  
+  public getByPromise(url: string): Promise<any> {
+      return this.httpClient.get(url).toPromise();
+  }
+ 
+}
+```
+
+Подобно обещанию (Promise), наблюдатель (Observable) не содержит в себе сразу значения. Вместо этого у него есть метод подписки(subscribe), где мы можем зарегистрировать обратный вызов(callback). Этот callback вызывается, как только результат будет доступен. Помимо обещания, Observable может вернуть более одного значения. Вы можете вернуть себе поток результатов. Но это не имеет значения в данном случае. В нашем случае Observable возвращает только одно значение.
+
+```ts
+// my-component.component.ts
+@Component({ /* .. */ })
+export class MyComponent {
+  constructor(private rest: RestService) {}
+  
+  // Observable classic examples
+  public getFields() {
+    this.rest.getByObservable('http://anyurl.com').subscibe(value =>{
+        // value - результат
+    },
+    error => {
+        // error - объект ошибки
+    });
+  }
+  
+  public async getAsyncField() {
+    try {
+      // value - результат
+      const value = await this.rest.getByPromise('http://anyurl.com');
+    } catch (error) {
+      // error - объект ошибки
+    }
+  }
+  
+}
+```
+
+<h3 id="router">Роутинг</h3>
+
+* [Официальная документация Router](https://angular.io/guide/router.html#sts=Router%20imports)
+* [ui-router](https://github.com/angular-ui/ui-router)
+
+<h3 id="test">Тестирование</h3>
+
+* [Тестирование Http сервиса с Jasmine](http://chariotsolutions.com/blog/post/testing-http-services-angular-2-jasmine/)
+* [UI-тестирование компонентов с TestComponentBuilder](http://chariotsolutions.com/blog/post/testing-angular-2-components-unit-tests-testcomponentbuilder/)
+
+<h3 id="aot">Ahead-of-Time компиляция</h3>
+
+* [Официальная документация](https://angular.io/guide/aot-compiler)
+* [AOT в Angular](http://blog.mgechev.com/2016/08/14/ahead-of-time-compilation-angular-offline-precompilation/)
+* [Сборка Angular приложения для продакшина](http://blog.mgechev.com/2016/06/26/tree-shaking-angular2-production-build-rollup-javascript/)
+* [Прояснения в Ahead-Of-Time компиляции в Angular](http://slides.com/wassimchegham/demystifying-ahead-of-time-compilation-in-angular-2-aot-jit)
+* [Несколько решений по работе с Ahead of Time (AOT)](https://blog.craftlab.hu/multiple-solutions-for-angular-ahead-of-time-aot-compilation-c474d9a0d508)
+* [Пример кода с Webpack и AOT](https://github.com/blacksonic/angular2-aot-webpack)
+* [Пример кода с Rollup и AOT](https://github.com/mgechev/angular2-ngc-rollup-build)
 
