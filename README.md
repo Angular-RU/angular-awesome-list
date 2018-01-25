@@ -24,9 +24,9 @@
   * [Новости в twitter](#twitter)
   * [Сообщества](#community)
   * [Серверный рендеринг](#server-side-rendering)
-  * [Material Design](#material)
   * [Cheatsheet (чит-лист)](#cheatsheet)
   * [UI библиотеки](#angular-ui)
+    * [Material Design](#material)
     * [PrimeNG](#primeng)
     
 --------
@@ -129,17 +129,6 @@
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
 
-<h3 id="material">Material Design</h3>
-
-* [Официальный репозиторий Angular Material Design (GitHub)](https://github.com/angular/material2)
-* [Коллекция Material Design компонентов (md2)](https://github.com/Promact/md2) 
-* [Коллекция компонентов на основе материала Material Design Lite (angular2-mdl)](https://www.npmjs.com/package/angular2-mdl) 
-* [Компоненты, созданные с помощью Google Material Design Lite framework (mdl-ext)](https://www.npmjs.com/package/mdl-ext)
-* [Компоненты Materialize library (ng2-materialize)](https://github.com/sherweb/ng2-materialize)
-* [Material Light](https://github.com/YagoLopez/material-light) 
-* [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
-
-
 <h3 id="cheatsheet">Cheatsheet (чит-лист)</h3>
 
 * [Официальный cheatsheet от Angular](https://angular.io/guide/cheatsheet)
@@ -150,6 +139,16 @@
 <h3 id="angular-ui">UI библиотеки</h3>
 
 > UI-библиотека — это набор интерфейсных компонентов
+
+<h4 id="material">Material Design</h4>
+
+* [Официальный репозиторий Angular Material Design (GitHub)](https://github.com/angular/material2)
+* [Коллекция Material Design компонентов (md2)](https://github.com/Promact/md2) 
+* [Коллекция компонентов на основе материала Material Design Lite (angular2-mdl)](https://www.npmjs.com/package/angular2-mdl) 
+* [Компоненты, созданные с помощью Google Material Design Lite framework (mdl-ext)](https://www.npmjs.com/package/mdl-ext)
+* [Компоненты Materialize library (ng2-materialize)](https://github.com/sherweb/ng2-materialize)
+* [Material Light](https://github.com/YagoLopez/material-light) 
+* [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
 
 <h4 id="primeng">PrimeNG</h4>
 
