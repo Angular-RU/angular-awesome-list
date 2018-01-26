@@ -147,7 +147,9 @@
 * [Еще один cheatsheet для AngularDart](https://github.com/andresaraujo/angular2_cheatsheet_dart)
 * [Чек-лист Angular Performance](https://github.com/mgechev/angular-performance-checklist)
 
-<h3 id="material">Material Design</h3>
+<h3 id="angular-ui">UI библиотеки</h3>
+
+<h4 id="material">Material Design</h4>
 
 * [Официальный репозиторий Angular Material Design (GitHub)](https://github.com/angular/material2)
 * [Коллекция Material Design компонентов (md2)](https://github.com/Promact/md2) 
@@ -160,7 +162,7 @@
 
 <h3 id="features">Важные особенности</h3>
 
-<h3 id="directives">Директивы</h3>
+<4 id="directives">Директивы</h4>
 
 Директивы позволяют получать прямой доступ к DOM ваших элементов.
 
@@ -173,7 +175,7 @@ export class MyDirective {
 }
 ```
 
-<h3 id="components">Компоненты</h3>
+<h4 id="components">Компоненты</h4>
 
 Компонент - это точно такая же директива, за исключением того, что в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Компоненты обычно используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
 
@@ -186,7 +188,7 @@ export class MyComponent {
 }
 ```
 
-<h3 id="templates">Шаблоны</h3>
+<h4 id="templates">Шаблоны</h4>
 
 Шаблон - это ваша html-разметка, в которой вы можете описывать ваши взаимодействия с DOM на основе модели данных и событий вашего класса компонента (в примере, контроллер MyComponent).
 
@@ -210,11 +212,11 @@ export class MyComponent {
 Идентичная интерполяция: {{ this.title }}
 ```
 
-<h3 id="change-detection">Обнаружение изменений</h3>
+<h4 id="change-detection">Обнаружение изменений</h4>
 
 Каждый компонент имеет свой собственный детектор изменений, который гарантирует проверку привязок данных, определенных шаблоне.
 
-<h3 id="dependency-injection">Внедрение зависимостей</h3>
+<h4 id="dependency-injection">Внедрение зависимостей</h4>
 
 Внедрение зависимостей (англ. Dependency Injection) — это композиция структурных шаблонов проектирования, при которой за каждую функцию приложения отвечает один, условно независимый объект (сервис), который может иметь необходимость использовать другие объекты (зависимости), известные ему интерфейсами. Зависимости передаются (внедряются) сервису в момент его создания.
 
@@ -244,7 +246,7 @@ export class MyComponent {
 }
 ```
 
-<h3 id="pipes">Пайпы</h3>
+<h4 id="pipes">Пайпы</h4>
 
 Пайп (pipe) представляет собой особый обработчик, который позволяет форматировать отображаемые значения
 
@@ -294,11 +296,11 @@ export class MyComponent {
 <!-- Факториал числа 5 равен 120 -->
 ```
 
-<h3 id="web-workers">Web Workers</h3>
+<h4 id="web-workers">Web Workers</h4>
 
 Поддержка Web Worker в Angular предназначена для упрощенного распараллеливания в вашем приложении. Когда ваше приложение запускается, Angular проводит всю основную работу по обработке вашей логики в отдельных потоках, ядро выполняет вычисление в своем рабочем потоке, в то время как другие функции могут и вовсе выполняться не в потоках.
 
-<h3 id="http">HTTP</h3>
+<h4 id="http">HTTP</h4>
 
 Самый распространенный способ получить данные от web-служб — это через HttpClient сервис доступный для внедрения зависимостей в ваших компонентах. Angular HttpClient довольно прост. Все, что нам нужно сделать, это вызвать метода get и передать ему url. Данный метод get возвращает объект Observable. Этот класс является частью библиотеки rxjs, которая используется во многих местах Angular'а.
 
@@ -351,17 +353,17 @@ export class MyComponent {
 }
 ```
 
-<h3 id="router">Роутинг</h3>
+<h4 id="router">Роутинг</h4>
 
 * [Официальная документация Router](https://angular.io/guide/router.html#sts=Router%20imports)
 * [ui-router](https://github.com/angular-ui/ui-router)
 
-<h3 id="test">Тестирование</h3>
+<h4 id="test">Тестирование</h4>
 
 * [Тестирование Http сервиса с Jasmine](http://chariotsolutions.com/blog/post/testing-http-services-angular-2-jasmine/)
 * [UI-тестирование компонентов с TestComponentBuilder](http://chariotsolutions.com/blog/post/testing-angular-2-components-unit-tests-testcomponentbuilder/)
 
-<h3 id="aot">Ahead-of-Time компиляция</h3>
+<h4 id="aot">Ahead-of-Time компиляция</h4>
 
 * [Официальная документация](https://angular.io/guide/aot-compiler)
 * [AOT в Angular](http://blog.mgechev.com/2016/08/14/ahead-of-time-compilation-angular-offline-precompilation/)
