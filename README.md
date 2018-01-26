@@ -28,11 +28,11 @@
   * [UI библиотеки](#angular-ui)
     * [Material Design](#material)
   * [Важные особенности](#features)
-    * [Директивы](#directives)
     * [Компоненты](#components)
     * [Шаблоны](#templates)
     * [Обнаружение изменений](#change-detection)
     * [Внедрение зависимостей](#dependency-injection)
+    * [Директивы](#directives)
     * [Пайпы](#pipes)
     * [Web Workers](#web-workers)
     * [HTTP](#http)
@@ -162,26 +162,13 @@
 
 <h3 id="features">Важные особенности</h3>
 
-<4 id="directives">Директивы</h4>
-
-Директивы позволяют получать прямой доступ к DOM ваших элементов.
-
-```ts
-@Directive({
- selector: '[html-attr-name]'
-})
-export class MyDirective {
-  // ...
-}
-```
-
 <h4 id="components">Компоненты</h4>
 
 Компонент - это точно такая же директива, за исключением того, что в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Компоненты обычно используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
 
 ```ts
 @Component({
- selector: 'html-element-name'
+  selector: 'html-name-element'
 })
 export class MyComponent {
   // ...
@@ -208,8 +195,10 @@ export class MyComponent {
 
 ```html
 <!-- my-component.component.html -->
-Интерполяция: {{ title }} <br> 
-Идентичная интерполяция: {{ this.title }}
+<div>
+  Интерполяция: {{ title }} <br> 
+  Идентичная интерполяция: {{ this.title }}
+</div>
 ```
 
 <h4 id="change-detection">Обнаружение изменений</h4>
@@ -244,6 +233,52 @@ export class MyComponent {
   }
 
 }
+```
+
+<h4 id="directives">Директивы</h4>
+
+Директивы позволяют получать прямой доступ к DOM ваших элементов. Они бывают двух видов: структурные и атрибутные.
+
+Атрибутная директива:
+
+```ts
+@Directive({
+  selector: '[bold]'
+})
+export class BoldDirective{
+     
+    constructor(private elementRef: ElementRef){
+        this.elementRef.nativeElement.style.fontWeight = "bold";
+    }
+}
+```
+
+Здесь внедряется сервис "ElementRef". Он представляет ссылку на элемент, к которому будет применяться директива:
+
+
+```html
+<!-- my-component.component.html -->
+<p bold>Hello world</p>
+```
+
+Структурные директивы:
+
+Структурные директивы изменяют структуру DOM с помощью добавления или удаления html-элементов. Существует минимум три встроенных структурных директивы: ngIf, ngSwitch и ngFor.
+
+```ts
+@Component({ /* ... */ })
+export class AppComponent {
+    // ..
+    
+    public items = ["Apple iPhone", "Huawei Mate", "Samsung Galaxy", "Motorola Moto Z"];
+}
+```
+
+```html
+<!-- my-component.component.html -->
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>
 ```
 
 <h4 id="pipes">Пайпы</h4>
