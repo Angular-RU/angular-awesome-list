@@ -16,7 +16,6 @@
 ##### Current Browser support for Angular:
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)
 
-
 **Содержание**:
 
 * [Angular](#angular)
@@ -179,7 +178,7 @@
 
 <h4 id="components">Компоненты</h4>
 
-Компонент - это точно такая же директива, за исключением того, что в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Компоненты обычно используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
+Компонент управляет отображением представления на экране, в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Как правило, компоненты используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
 
 ```js
 @Component({
@@ -207,13 +206,12 @@ export class MyComponent {
 }
 ```
 
-
 ```html
 <!-- my-component.component.html -->
-<div>
-  Интерполяция: {{ title }} <br> 
-  Идентичная интерполяция: {{ this.title }}
-</div>
+<p>
+  Интерполяция: {{ title }},  
+  или так:      {{ this.title }}
+</p>
 ```
 
 <h4 id="change-detection">Обнаружение изменений</h4>
@@ -391,6 +389,7 @@ export class MyComponent {
     });
   }
   
+  // Promise classic examples
   public async getAsyncField() {
     try {
       // value - результат
@@ -423,3 +422,15 @@ export class MyComponent {
 * [Пример кода с Webpack и AOT](https://github.com/blacksonic/angular2-aot-webpack)
 * [Пример кода с Rollup и AOT](https://github.com/mgechev/angular2-ngc-rollup-build)
 
+
+### Angular CLI
+* [Официальный сайт](https://cli.angular.io/)
+* [Официальный репозиторий](https://github.com/angular/angular-cli)
+
+### Webpack
+* [Официальный сайт](https://webpack.js.org)
+* [Angular Webpack стартер от PatrickJS](https://github.com/gdi2290/angular-starter)
+* [Angular Webpack стартер от Preboot](https://github.com/preboot/angular-webpack)
+* [Angular Nightly Webpack стартер](https://github.com/qdouble/angular-webpack2-starter)
+* [Angular Webpack стартер с ASP.NET Core от Damien Bowden](https://github.com/damienbod/AngularWebpackVisualStudio)
+* [Webpack конфигурация для Angular разработки от ng-seed](https://github.com/ng-seed/angular-webpack-config)
