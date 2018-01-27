@@ -39,6 +39,21 @@
     * [Роутинг](#router)
     * [Тестирование](#test)
     * [Ahead-of-Time компиляция](#aot)
+  * [Angular CLI](#angular-cli)
+  * [Webpack](#webpack)
+  * [Series](#series)
+  * [Видеоуроки](#video-tutorials)
+  * [Style Guides](#style-guides)
+  * [Angular Connect](#angular-connect)
+  * [Книги](#books)
+  * [Курсы и тренинги](#on-site-training)
+  * [Различные подходы](#approach-and-explanation)
+  * [Интеграция](#integrations)
+  * [Компоненты](#components)
+  * [Примеры приложений](#site-templates)
+  * [Генераторы](#generators)
+  * [Инструменты документации](#documentation-tools)
+  * [TodoMVC](#todomvc)
     
 --------
 
@@ -166,7 +181,7 @@
 
 Компонент - это точно такая же директива, за исключением того, что в ее основе используется Shadow DOM по умолчанию (для создания инкапсулированного визуального поведения). Компоненты обычно используются для создания простого виджета в пользовательском интерфейсе, в то же время они могут представлять из себя набор еще более простых компонентов внутри себя (для увеличения абстракции и создания простых функциональных виджетов внутри приложения).
 
-```typescript
+```js
 @Component({
   selector: 'html-name-element'
 })
@@ -179,7 +194,7 @@ export class MyComponent {
 
 Шаблон - это ваша html-разметка, в которой вы можете описывать ваши взаимодействия с DOM на основе модели данных и событий вашего класса компонента (в примере, контроллер MyComponent).
 
-```typescript
+```js
 @Component({
  template: 'my-component.component.html'
 })
@@ -210,7 +225,7 @@ export class MyComponent {
 Внедрение зависимостей (англ. Dependency Injection) — это композиция структурных шаблонов проектирования, при которой за каждую функцию приложения отвечает один, условно независимый объект (сервис), который может иметь необходимость использовать другие объекты (зависимости), известные ему интерфейсами. Зависимости передаются (внедряются) сервису в момент его создания.
 
 
-```typescript
+```js
 // logger.service.ts
 @Injectable()
 export class LoggerService {
@@ -223,7 +238,7 @@ export class LoggerService {
 }
 ```
 
-```typescript
+```js
 // my-component.component.ts
 @Component({ /* .. */ })
 export class MyComponent {
@@ -241,7 +256,7 @@ export class MyComponent {
 
 Атрибутная директива:
 
-```typescript
+```js
 @Directive({
   selector: '[bold]'
 })
@@ -265,7 +280,7 @@ export class BoldDirective{
 
 Структурные директивы изменяют структуру DOM с помощью добавления или удаления html-элементов. Существует минимум три встроенных структурных директивы: ngIf, ngSwitch и ngFor.
 
-```typescript
+```js
 @Component({ /* ... */ })
 export class AppComponent {
     // ..
@@ -285,7 +300,7 @@ export class AppComponent {
 
 Пайп (pipe) представляет собой особый обработчик, который позволяет форматировать отображаемые значения
 
-```typescript
+```js
 // my-component.component.ts
 @Component({ /* .. */ })
 export class MyComponent {
@@ -301,7 +316,7 @@ export class MyComponent {
 
 Помимо стандартных, вы можете писать собственные
 
-```typescript
+```js
 @Pipe({ name: 'factorial' })
 export class FactorialPipe implements PipeTransform {
   transform(value: number, args?: any): number {
@@ -317,7 +332,7 @@ export class FactorialPipe implements PipeTransform {
 }
 ```
 
-```typescript
+```js
 // my-component.component.ts
 @Component({ /* .. */ })
 export class MyComponent {
@@ -339,7 +354,7 @@ export class MyComponent {
 
 Самый распространенный способ получить данные от web-служб — это через HttpClient сервис доступный для внедрения зависимостей в ваших компонентах. Angular HttpClient довольно прост. Все, что нам нужно сделать, это вызвать метода get и передать ему url. Данный метод get возвращает объект Observable. Этот класс является частью библиотеки rxjs, которая используется во многих местах Angular'а.
 
-```typescript
+```js
 // rest.service.ts
 @Injectable()
 export class RestService {
@@ -359,7 +374,7 @@ export class RestService {
 
 Подобно обещанию (Promise), наблюдатель (Observable) не содержит в себе сразу значения. Вместо этого у него есть метод подписки(subscribe), где мы можем зарегистрировать обратный вызов(callback). Этот callback вызывается, как только результат будет доступен. Помимо обещания, Observable может вернуть более одного значения. Вы можете вернуть себе поток результатов. Но это не имеет значения в данном случае. В нашем случае Observable возвращает только одно значение.
 
-```typescript
+```js
 // my-component.component.ts
 @Component({ /* .. */ })
 export class MyComponent {
