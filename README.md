@@ -39,11 +39,11 @@
     * [Тестирование](#test)
     * [Ahead-of-Time компиляция](#aot)
   * [Angular CLI](#angular-cli)
-  * [Webpack](#webpack)
-  * [Series](#series)
+  * [Webpack стартеры](#webpack)
+  * [Публикации](#series)
   * [Видеоуроки](#video-tutorials)
-  * [Style Guides](#style-guides)
-  * [Angular Connect](#angular-connect)
+  * [Стайл-гайды](#style-guides)
+  * [Angular Connect конференция](#angular-connect)
   * [Книги](#books)
   * [Курсы и тренинги](#on-site-training)
   * [Различные подходы](#approach-and-explanation)
@@ -427,10 +427,140 @@ export class MyComponent {
 * [Официальный сайт](https://cli.angular.io/)
 * [Официальный репозиторий](https://github.com/angular/angular-cli)
 
-### Webpack
-* [Официальный сайт](https://webpack.js.org)
+<h3 id="webpack">Webpack стартеры</h3>
+
+* [Официальный сайт Webpack](https://webpack.js.org)
 * [Angular Webpack стартер от PatrickJS](https://github.com/gdi2290/angular-starter)
 * [Angular Webpack стартер от Preboot](https://github.com/preboot/angular-webpack)
 * [Angular Nightly Webpack стартер](https://github.com/qdouble/angular-webpack2-starter)
 * [Angular Webpack стартер с ASP.NET Core от Damien Bowden](https://github.com/damienbod/AngularWebpackVisualStudio)
 * [Webpack конфигурация для Angular разработки от ng-seed](https://github.com/ng-seed/angular-webpack-config)
+
+<h3 id="series">Публикации</h3>
+
+* Ionic
+  * Angular
+    * [Введение](http://blog.ionic.io/angular-2-series-introduction/)
+    * [Компоненты](http://blog.ionic.io/angular-2-series-components/)
+* Auth0
+  * Angular
+    * [Работаем c пайпами (pipes)](https://auth0.com/blog/angular2-series-working-with-pipes/)
+    * [Паттерн проектирования Domain Model and Dependency Injection](https://auth0.com/blog/angular-2-series-part-2-domain-models-and-dependency-injection/)
+    * [Создание Desktop приложения на Angular 2 и Electron](https://auth0.com/blog/create-a-desktop-app-with-angular-2-and-electron/)
+* thoughtram
+  * Angular Template Syntax
+    * [Введение](https://blog.thoughtram.io/angular/2015/08/11/angular-2-template-syntax-demystified-part-1.html)
+* [letsboot.com](https://medium.com/letsboot)
+  * Test Driven Development
+    * [Angular TDD, Karma, Jasmine, PhantomJS, Gitlab-CI](https://medium.com/letsboot/angular-4-and-testing-angular-cli-gitlab-ci-ng-test-phantomjs-tdd-afc20f50b928)
+  * Angular and Firebase
+    * [Учимся настраивать и работать AngularFire](https://medium.com/letsboot/lets-learn-how-to-install-and-setup-angularfire2-4-0-135d72bb0a41)
+
+<h3 id="video-tutorials">Видеоуроки</h3>
+
+* [Egghead.io - Angular](https://egghead.io/technologies/angular2)
+* [Egghead.io - Разработка приложения на Angular + Redux](https://egghead.io/courses/building-a-time-machine-with-angular-2-and-rxjs)
+* [HiRez.io - Angular: основы](https://www.hirez.io/c/angular-basics-1/e/episode-1-course-overview)
+* [HiRez.io - Angular: введение в компоненты](https://www.hirez.io/c/components-1/e/episode-1-course-overview)
+* [Udemy - Введение в Angular](https://www.udemy.com/introduction-to-angular2/)
+* [Udemy - Angular и TypeScript для начинающих](https://www.udemy.com/angular-2-tutorial-for-beginners/)
+* [Udemy - Курс по Angular](https://www.udemy.com/the-complete-guide-to-angular-2/)
+* [Pluralsight - Angular: обзор](https://www.pluralsight.com/courses/angular-2-first-look)
+* [Pluralsight - Angular 2: Getting Started](https://www.pluralsight.com/courses/angular-2-getting-started-update)
+* [Channel9 - Будущее TypeScript](https://channel9.msdn.com/Events/Build/2015/3-644)
+* [Channel9 - Создание кроссплатформенных приложений с Angular](https://channel9.msdn.com/Events/Build/2016/T627)
+* [Code School - Разгоняем Angular](https://www.codeschool.com/courses/accelerating-through-angular)
+* [Angular - типизированное хранилище](https://www.youtube.com/watch?v=bEkPEnudm7s&feature=youtu.be)
+* [Angular - расширенные советы и рекомендации](https://www.youtube.com/watch?v=vyiyJCLlGwo&feature=youtu.be)
+* [Angular Fullstack](https://www.youtube.com/channel/UCRefxaAA-7PfezH3CY87fzw)
+* [Angular Master Class](https://www.udemy.com/angular-crash-course-for-beginners)
+
+<h3 id="style-guides">Стайл-гайды</h3>
+
+* [Официальный Angular Style guide](https://angular.io/guide/styleguide)
+* [Описание того, как нужно составлять правила для TSLint](https://github.com/ng-seed/angular-tslint-rules)
+
+<h3 id="angular-connect">Angular Connect конференция</h3>
+
+* [Основной доклад – Brad Green, Igor Minar and Jules Kremer](https://www.youtube.com/watch?v=UxjgUjVpe24)
+* [Стратегии тестирования Angular – Julie Ralph](https://www.youtube.com/watch?v=C0F2E-PRm44)
+* [Создание нативных мобильных приложений с Angular and NativeScript​ - Sebastian Witalec](https://www.youtube.com/watch?v=4SbiiyRSIwo)
+* [Angular Data Flow – Jeff Cross, Rob Wormald and Alex Rickabaugh](https://www.youtube.com/watch?v=bVI5gGTEQ_U)
+* [Стратегии итеративных обновлений больших Angular-приложений – Jen Bourey](https://www.youtube.com/watch?v=8tGcdaItj0I)
+* [Отладка Angular приложений с ипсользованием Batarangle – Yuri Takhteyev and Igor Krivanov](https://www.youtube.com/watch?v=cAC4d3KIQcM)
+* [Разработка приложений с Firebase and Angular - Sara Robinson](https://www.youtube.com/watch?v=RD0xYicNcaY)
+* [Концепции Angular - Victor Savkin and Tobias Bosch](https://www.youtube.com/watch?v=4YmnbGoh49U)
+* [Модульность Angular приложений – Pawel Kozlowski](https://www.youtube.com/watch?v=9odY9Rh5kTQ)
+* [Создание приложений реального времени на Angular и Meteor - Uri Goldshtein](https://www.youtube.com/watch?v=3FT0BqYASCo)
+
+<h3 id="books">Книги</h3>
+
+* [ng-book 2](https://www.ng-book.com/2/) `fullstack.io`
+* [Как стать ниндзя в Angular](https://books.ninja-squad.com/angular) `Ninja Squad`
+* [Angular разработка с TypeScript](https://www.manning.com/books/angular-2-development-with-typescript) `Manning Publications`
+* [Angular в бою](https://www.manning.com/books/angular-in-action) `Manning Publications`
+* [Практики Angular](https://leanpub.com/practical-angular-2) `Leanpub`
+* [Переходим на Angular](https://www.packtpub.com/web-development/switching-angular-2) `Packt Publishing`
+* [Angular тренинги](https://www.gitbook.com/book/rangle-io/ngcourse2/details) `Rangle.io`
+* [Изучаем Angular](http://learnangular2.com/) `Ionic Team`
+* [Тестирование Angular приложений](https://www.manning.com/books/testing-angular-applications) `Manning Publications`
+
+<h3 id="on-site-training">Онлайн тренинги</h3>
+
+* [AngularClass](https://angularclass.com)
+* [Angular Boot Camp](https://angularbootcamp.com)
+* [thoughtram](http://thoughtram.io/training.html)
+* [Egghead.io](https://egghead.io/angularjs-enterprise-training-workshop)
+* [ng-book](https://www.ng-book.com/2/)
+* [Angular Workshop](http://chariotsolutions.com/course/angular-workshop-fundamentals-architecture/)
+* [Web Age Solutions](http://www.webagesolutions.com/courses/WA2533-introduction-to-angular-2-programming)
+* [Letsboot.com](https://www.letsboot.com/angular-2-in-house-training-support)
+* [Free on-site 2-days training delivered by SFEIR (in France)](https://school.sfeir.com/project/sa200/)
+
+
+<h3 id="approach-and-explanation">Различные подходы</h3>
+
+* Victor Savkin
+  * [Внедрение зависимостей (DI) в AngularJS и Angular](https://vsavkin.com/dependency-injection-in-angular-1-and-angular-2-d69589979c18)
+  * [Пишем на Angular с Typescript](https://vsavkin.com/writing-angular-2-in-typescript-1fa77c78d8e8)
+  * [Angular - синтаксис шаблонов](https://vsavkin.com/angular-2-template-syntax-5f2ee9f13c6a)
+  * [Концепция The Core Concepts of Angular 2](https://vsavkin.com/the-core-concepts-of-angular-2-c3d6cbe04d04)
+  * [Основные файзы при разработке на Angular](https://vsavkin.com/two-phases-of-angular-2-applications-fda2517604be)
+  * [Стратегии обнаружения в Angular](https://vsavkin.com/change-detection-in-angular-2-4f216b855d4c)
+  * [Поддержка функционального программирования](https://vsavkin.tumblr.com/post/108837493941/better-support-for-functional-programming-in)
+  * [Angular: унифицированный Dependency Injection](https://vsavkin.tumblr.com/post/102965317996/angular-2-bits-unified-dependency-injection)
+  * [Angular Router](https://vsavkin.com/angular-2-router-d9e30599f9ea)
+
+* AngularClass
+  * [Автоматизированное развертывание приложений на Angular и Webpack](https://angularclass.com/blog/automated-angular-2-conventions-with-webpack/)
+  * [Angular для AngularJS разработчиков](https://angularclass.com/blog/angular-2-for-angularjs-developers/)
+  * [Angular 2 для ReactJS разработчиков](https://angularclass.com/blog/angular-2-for-react-developers/)
+
+* thoughtram
+  * [Разработка компонента tabs (вкладки) в Angular](https://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html)
+  * [Разработка zippy-компонента в Angular](https://blog.thoughtram.io/angular/2015/03/27/building-a-zippy-component-in-angular-2.html)
+  * [Введение в сервисы в Angular](https://blog.thoughtram.io/angular/2015/09/17/resolve-service-dependencies-in-angular-2.html)
+  * [Forward references в Angular](https://blog.thoughtram.io/angular/2015/09/03/forward-references-in-angular-2.html)
+  * [Видимость в DI в Angular 2](https://blog.thoughtram.io/angular/2015/08/20/host-and-visibility-in-angular-2-dependency-injection.html)
+  * [Dependency Injection in Angular 2](https://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html)
+  * [Routing in Angular 2 **Depreciated**](https://blog.thoughtram.io/angular/2015/06/16/routing-in-angular-2.html)
+  * [Routing in Angular 2 Revisited](https://blog.thoughtram.io/angular/2016/06/14/routing-in-angular-2-revisited.html)
+  * [Angular 2 Template Syntax Demystified - Part 1](http://blog.thoughtram.io/angular/2015/08/11/angular-2-template-syntax-demystified-part-1.html)
+  * [View Encapsulation in Angular 2](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+  * [Styling Angular 2 components](https://blog.thoughtram.io/angular/2015/06/25/styling-angular-2-components.html)
+  * [Even better ES5 code for Angular 2](https://blog.thoughtram.io/angular/2015/07/06/even-better-es5-code-for-angular-2.html)
+  * [Writing Angular 2 code in ES5](https://blog.thoughtram.io/angular/2015/05/09/writing-angular-2-code-in-es5.html)
+  * [The difference between Annotations and Decorators](https://blog.thoughtram.io/angular/2015/05/03/the-difference-between-annotations-and-decorators.html)
+
+* Hristo Georgiev
+  * [Debugging Angular 2 Applications](https://www.pluralsight.com/guides/front-end-javascript/debugging-angular-2-applications)
+
+* Helgevold Consulting
+  * [Web Workers in Angular 2.0](http://www.syntaxsuccess.com/viewarticle/web-workers-in-angular-2.0)
+  * [Creating a Virtualized Grid](http://www.syntaxsuccess.com/viewarticle/virtualized-spreadsheet-component-in-angular-2.0)
+  * [Socket.io with Observables](http://www.syntaxsuccess.com/viewarticle/socket.io-with-rxjs-in-angular-2.0)
+  * [Change Detection](http://www.syntaxsuccess.com/viewarticle/change-detection-in-angular-2.0)
+
+* Burak Tasci (fulls1z3)
+  * [Angular 4 with server side rendering (aka Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
+  
