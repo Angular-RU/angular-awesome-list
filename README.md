@@ -46,9 +46,10 @@
   * [Angular Connect конференция](#angular-connect)
   * [Книги](#books)
   * [Курсы и тренинги](#on-site-training)
-  * [Различные подходы](#approach-and-explanation)
+  * [Подборка статей](#approach-and-explanation)
   * [Интеграция](#integrations)
   * [Компоненты](#components)
+  * [Пайпы](#pipes)
   * [Примеры приложений](#site-templates)
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
@@ -518,7 +519,7 @@ export class MyComponent {
 * [Free on-site 2-days training delivered by SFEIR (in France)](https://school.sfeir.com/project/sa200/)
 
 
-<h3 id="approach-and-explanation">Различные подходы</h3>
+<h3 id="approach-and-explanation">Подборка статей</h3>
 
 * Victor Savkin
   * [Внедрение зависимостей (DI) в AngularJS и Angular](https://vsavkin.com/dependency-injection-in-angular-1-and-angular-2-d69589979c18)
@@ -563,3 +564,54 @@ export class MyComponent {
 * Burak Tasci (fulls1z3)
   * [Angular - server side rendering (Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
   
+<h3 id="integrations">Интеграции</h3>
+
+* [FalcorJS + Angular (видео)] (https://www.youtube.com/watch?v=z8UgDZ4rXBU&feature=youtu.be)
+* [Angular + Meteor] (http://angular-meteor.com/angular2)
+* [NativeScript + Angular] (https://github.com/NativeScript/nativescript-angular)
+* [ReactNative + Angular] (https://github.com/angular/react-native-renderer)
+* [GraphQL + Angular] (https://github.com/apollographql/apollo-angular)
+
+<h3 id="components">Компоненты</h3>
+
+-
+
+<h3 id="pipes">Пайпы (pipes)</h3>
+
+* [fuel-ui](https://github.com/FuelInteractive/fuel-ui) - OrderBy и Range, портированные из AngularJS 1.x в Angular
+* [ngx-filter-pipe](https://github.com/VadimDez/ngx-filter-pipe) Пайп (pipe) для фильтрации массивов
+* [ngx-pipes](https://github.com/danrevah/ngx-pipes) набор полезных пайпов для Angular
+* [ngx-order-pipe](https://github.com/VadimDez/ngx-order-pipe) OrderBy - сортировка коллекций
+* [angular2-camelcase](https://github.com/previousdeveloper/angular2-camelcase) Пайп для преобразования строк в camelCase
+
+<h3 id="site-templates">Примеры приложений</h3>
+
+* [NG-Dashboard](https://github.com/YagoLopez/ng-dashboard) - Dashboard для Angular 4+. Компоненты пользовательского интерфейса на основе [Material Light](https://github.com/YagoLopez/material-light?ref=awesome-angular). Компоненты диаграмм на основе [MetricsGraficsJS](https://www.metricsgraphicsjs.org). Map директива на основе [LeafletJS](http://leafletjs.com). [DEMO ONLINE](http://yagolopez.js.org/ng-dashboard/dist/)
+
+<h3 id="generators">Генераторы</h3>
+
+* Node.js
+  * Slush
+    * [TheVelourFog/slush-angular2](https://github.com/RyanMetin/slush-angular2)
+  * Yeoman
+    * [swirlycheetah/generator-angular2](https://github.com/chrisdwheatley/generator-angular2)
+  * Faristo
+    * [majodi/generator-angular2](https://github.com/majodi/Faristo)
+  * ngX-Rocket:
+    * [ngx-rocket/generator-ngx-rocket](https://github.com/ngx-rocket/generator-ngx-rocket)
+    * [ngx-rocket/cli](https://github.com/ngx-rocket/cli)
+    * [ngx-rocket/core](https://github.com/ngx-rocket/core)
+* Dart
+  * Stagehand
+    * [google/stagehand](https://github.com/google/stagehand)
+
+<h3 id="documentation-tools">Инструменты документации</h3>
+
+* [Storybook](https://github.com/storybooks/storybook): "Cреда разработки, которую вы полюбите"
+* [Compodoc](https://github.com/compodoc/compodoc): Отличный инструмент для создания документации вашего приложения
+* [AngularDoc](http://angulardoc.io/): Веб-сайт, отображающий "Архитектуру и визуализацию Angular-приложения"
+* [NgModule-Viz](https://github.com/politie/ngmodule-viz): Визуализация связей между NgModules и зависимостями в Angular
+
+<h3 id="todomvc">TodoMVC</h3>
+
+* [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
