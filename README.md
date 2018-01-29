@@ -543,24 +543,23 @@ export class MyComponent {
   * [Forward references в Angular](https://blog.thoughtram.io/angular/2015/09/03/forward-references-in-angular-2.html)
   * [Видимость в DI в Angular 2](https://blog.thoughtram.io/angular/2015/08/20/host-and-visibility-in-angular-2-dependency-injection.html)
   * [Dependency Injection in Angular 2](https://blog.thoughtram.io/angular/2015/05/18/dependency-injection-in-angular-2.html)
-  * [Routing in Angular 2 **Depreciated**](https://blog.thoughtram.io/angular/2015/06/16/routing-in-angular-2.html)
-  * [Routing in Angular 2 Revisited](https://blog.thoughtram.io/angular/2016/06/14/routing-in-angular-2-revisited.html)
-  * [Angular 2 Template Syntax Demystified - Part 1](http://blog.thoughtram.io/angular/2015/08/11/angular-2-template-syntax-demystified-part-1.html)
-  * [View Encapsulation in Angular 2](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
-  * [Styling Angular 2 components](https://blog.thoughtram.io/angular/2015/06/25/styling-angular-2-components.html)
-  * [Even better ES5 code for Angular 2](https://blog.thoughtram.io/angular/2015/07/06/even-better-es5-code-for-angular-2.html)
-  * [Writing Angular 2 code in ES5](https://blog.thoughtram.io/angular/2015/05/09/writing-angular-2-code-in-es5.html)
-  * [The difference between Annotations and Decorators](https://blog.thoughtram.io/angular/2015/05/03/the-difference-between-annotations-and-decorators.html)
+  * [Роутинг в Angular](https://blog.thoughtram.io/angular/2016/06/14/routing-in-angular-2-revisited.html)
+  * [Angular - синтаксис шаблонов](http://blog.thoughtram.io/angular/2015/08/11/angular-2-template-syntax-demystified-part-1.html)
+  * [View Encapsulation в Angular](https://blog.thoughtram.io/angular/2015/06/29/shadow-dom-strategies-in-angular2.html)
+  * [Стилизация Angular компонентов](https://blog.thoughtram.io/angular/2015/06/25/styling-angular-2-components.html)
+  * [ES5 для Angular](https://blog.thoughtram.io/angular/2015/07/06/even-better-es5-code-for-angular-2.html)
+  * [Пишем на JS в Angular](https://blog.thoughtram.io/angular/2015/05/09/writing-angular-2-code-in-es5.html)
+  * [Разница между аннотациями и декораторами](https://blog.thoughtram.io/angular/2015/05/03/the-difference-between-annotations-and-decorators.html)
 
 * Hristo Georgiev
-  * [Debugging Angular 2 Applications](https://www.pluralsight.com/guides/front-end-javascript/debugging-angular-2-applications)
+  * [Отладка Angular приложений](https://www.pluralsight.com/guides/front-end-javascript/debugging-angular-2-applications)
 
 * Helgevold Consulting
-  * [Web Workers in Angular 2.0](http://www.syntaxsuccess.com/viewarticle/web-workers-in-angular-2.0)
-  * [Creating a Virtualized Grid](http://www.syntaxsuccess.com/viewarticle/virtualized-spreadsheet-component-in-angular-2.0)
-  * [Socket.io with Observables](http://www.syntaxsuccess.com/viewarticle/socket.io-with-rxjs-in-angular-2.0)
-  * [Change Detection](http://www.syntaxsuccess.com/viewarticle/change-detection-in-angular-2.0)
+  * [Web Workers в Angular](http://www.syntaxsuccess.com/viewarticle/web-workers-in-angular-2.0)
+  * [Создание сетки для Angular](http://www.syntaxsuccess.com/viewarticle/virtualized-spreadsheet-component-in-angular-2.0)
+  * [Socket.io с Observables](http://www.syntaxsuccess.com/viewarticle/socket.io-with-rxjs-in-angular-2.0)
+  * [Change Detection в Angular](http://www.syntaxsuccess.com/viewarticle/change-detection-in-angular-2.0)
 
 * Burak Tasci (fulls1z3)
-  * [Angular 4 with server side rendering (aka Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
+  * [Angular - server side rendering (Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
   
