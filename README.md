@@ -48,7 +48,7 @@
   * [Курсы и тренинги](#on-site-training)
   * [Подборка статей](#approach-and-explanation)
   * [Интеграция](#integrations)
-  * [Компоненты](#components)
+  * [Компоненты](#components-list)
   * [Пайпы](#pipes)
   * [Примеры приложений](#site-templates)
   * [Генераторы](#generators)
@@ -572,7 +572,7 @@ export class MyComponent {
 * [ReactNative + Angular] (https://github.com/angular/react-native-renderer)
 * [GraphQL + Angular] (https://github.com/apollographql/apollo-angular)
 
-<h3 id="components">Компоненты</h3>
+<h3 id="components-list">Компоненты</h3>
 
 * [Material 2](https://github.com/angular/material2) - Компоненты от Material Design
 * [NG ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd) - Enterprise компоненты, основанные на Ant Design
