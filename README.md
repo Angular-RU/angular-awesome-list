@@ -574,7 +574,94 @@ export class MyComponent {
 
 <h3 id="components">Компоненты</h3>
 
--
+* [Material 2](https://github.com/angular/material2) - Компоненты от Material Design
+* [NG ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd) - Enterprise компоненты, основанные на Ant Design
+* [Element Angular](https://github.com/eleme/element-angular) - Element Design компоненты
+* [ng-bootstrap](https://github.com/valor-software/ngx-bootstrap) Нативный Bootstrap для Angular
+* [ng-charts](https://github.com/valor-software/ng2-charts) Компоненты диаграмм основанные на Chart.js
+* [ng-dragula](https://github.com/valor-software/ng2-dragula) Drag and Drop
+* [ng-file-upload](https://github.com/valor-software/ng2-file-upload) Простая директива для загрузки файлов
+* [ng-handsontable](https://github.com/valor-software/ng2-handsontable) Excel-подобная таблица (data grid / spreadsheet)
+* [ng-markdown](https://github.com/evanplaice/ng2-markdown) Angular Markdown компонент
+* [ng-select](https://github.com/valor-software/ng2-select) Angular компонент для select
+* [ng-safe-img](https://github.com/hyzhak/ng2-safe-img) Простая директива для обработки событий ошибки загрузки картинок (img)
+* [ng-table](https://github.com/valor-software/ng2-table) Простой компонент таблицы с сортировкой и фильтрацией
+* [ng-smart-table](https://github.com/akveo/ng2-smart-table) Smart-компонент таблицы
+* [ng-bs](https://github.com/pkozlowski-opensource/ng2-bs) Директивы для Bootstrap
+* [ng-lightning](https://github.com/ng-lightning/ng-lightning) Компоненты основанные на Lightning Design System
+* [ag-grid](https://www.ag-grid.com/) Улучшенный Datagrid
+* [angular-query-builder](https://github.com/zebzhao/Angular-QueryBuilder) Усовершенствованные запросы на основе jquery QueryBuilder
+* [angular-grid](https://github.com/BTMorton/angular2-grid) drag/drop/resize сетка
+* [angular-jwt](https://github.com/auth0/angular2-jwt) Библиотека для отправки аутентифицированных HTTP-запросов и декодирования JWT
+* [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплеминтирующая из AngularJS 1.x $cookies-сервис в Angular
+* [angular-fontawesome](https://github.com/travelist/angular2-fontawesome) Angular компоненты и директивы для Fontawesome
+* [angular-safeguard](https://github.com/MikaAK/angular-safeguard) Обертка над cookies/sessionStorage/localStorage
+* [angular-google-maps](https://github.com/SebastianM/angular-google-maps) Angular директивы для Google Maps
+* [angular-cesium](https://github.com/TGFTech/angular-cesium) Создание map web apps с использованием Cesium
+* [ng-radio-group](https://github.com/pleerock/ngx-select-controls) Angular директивы для radio/checkbox
+* [ng-dropdown](https://github.com/pleerock/ngx-dropdown) Выпадающее меню на основе bootstrap 3
+* [angular-multiselect-dropdown](https://github.com/CuppaLabs/angular2-multiselect-dropdown) Выпадающее меню (multiselect)
+* [ng-progress-bar](https://github.com/pleerock/ngx-progress-bar) Простой progress bar
+* [ng-tabs](https://github.com/pleerock/ngx-tabs) Tabs control для angular
+* [ng-modal](https://github.com/pleerock/ngx-modal) Модальные окна
+* [ng-sheet](https://github.com/lexikteam/ng2-sheet) Динамические компоненты меню
+* [ng-paginator](https://github.com/pleerock/ngx-paginator) Контроллы пагинации для angular
+* [fuel-ui](https://github.com/FuelInteractive/fuel-ui) Bootstrap 4 компоненты и директивы
+* [prime-ng](https://www.primefaces.org/primeng/)  Коллекция Primeng-компонентов
+* [ng-ace](https://github.com/seiyria/ng2-ace) Ace editor на Angular
+* [ng-storage](https://github.com/seiyria/ng2-storage) localStorage и sessionStorage обертки
+* [ng-fontawesome](https://github.com/seiyria/ng2-fontawesome) Простая директива для fontawesome
+* [ng-sweetalert2](https://github.com/seiyria/ng2-sweetalert2) Обертка над sweetalert2 
+* [angular-text-mask](https://github.com/text-mask/text-mask) Angular input маска (директива)
+* [angular-imask](https://github.com/uNmAnNeR/imaskjs/tree/gh-pages/plugins/angular) Еще одна input маска (директива)
+* [ng-fullpage](https://github.com/meiblorn/ngx-fullpage) Fullpage скролл на основе fullPage.js
+* [file-droppa](https://github.com/ptkach/fileDroppa) Простой загрузчик файлов на основе drag and drop
+* [ngx-img-fallback](https://github.com/VadimDez/ngx-img-fallback) Placeholder загрузки для image и image error
+* [angular-busy](https://github.com/devyumao/angular2-busy) Индекатор загрузки для Promise, Observable's
+* [ng-pdf-viewer](https://github.com/VadimDez/ng2-pdf-viewer) PDF viewer на Angular
+* [Covalent](https://teradata.github.io/covalent/) - UI набор компонентов на основе Material Design
+* [angular-infinite-scroll](https://www.npmjs.com/package/angular2-infinite-scroll) - Бесконечный скролл на Angular
+* [ng-card](https://github.com/c-bata/ng2-card) - Card-компоненты
+* [Wijmo 5](http://wijmo.com/products/wijmo-5/) - Набор компонентов пользовательского интерфейса для Angular
+* [ng-swipeable-card](https://github.com/JayKan/ng2-swipeable-card) - Перетаскиваемые card-компонентыы
+* [ngSemantic](https://github.com/vladotesanovic/ngSemantic) - Компоненты пользовательского интерфейса на основе  Semantic UI
+* [vmware clarity](https://github.com/vmware/clarity) - Clarity набор компонентов от VMware
+* [Teradata covalent](https://github.com/Teradata/covalent/) - Набор компонентов пользовательского интерфейса на основе materialize
+* [ng-quill-editor](https://github.com/surmon-china/ngx-quill-editor) - Quill editor компонент
+* [ngx-charts](https://github.com/swimlane/ngx-charts) - Настраиваемый Charting-фреймворк на Angular
+* [ngx-datatable](https://github.com/swimlane/ngx-datatable)  Функциональный и легкий компонент таблиц данных
+* [ngx-ui](https://github.com/swimlane/ngx-ui) - Библиотека стилей и компонентов ngx-ui
+* [Cloudinary](https://github.com/cloudinary/cloudinary_angular/tree/angular_next) - Angular SDK для управления изображениями и видео в облаке
+* [angular-simple-countdown](https://github.com/previousdeveloper/angular2-simple-countdown) - Простой countdown
+* [ng-http-cache](https://github.com/davguij/angular-http-cache) - Кеширование http-запросов
+* [ng-animate](https://github.com/jiayihu/ng-animate) - Коллекция крутых анимаций
+* [lottie-angular](https://github.com/chenqingspring/ng-lottie) - After Effects анимации для Angular
+* [ngx-restangular](https://github.com/2muchcoffeecom/ngx-restangular) - Restangular сервис
+* [ngfb-sortable-table](https://github.com/NodeArt/Angular-Firebase-Sortable-Table) - Angular Firebase Table компоненты
+* [angular-split](https://github.com/bertrandg/angular-split) Angular split компонент
+* [od-virtualscroll](https://github.com/dinony/od-virtualscroll) Бесконечный скролл на Observable
+* [angular-froala-wysiwyg](https://github.com/froala/angular-froala-wysiwyg) WYSIWYG HTML Editor на Angular
+* [ngx-meta](https://github.com/fulls1z3/ngx-meta) - Утилита Dynamic page для Angular Universal
+* [ngx-config](https://github.com/fulls1z3/ngx-config) - Настройки для Angular (Angular Universal loader)
+* [ngx-cache](https://github.com/fulls1z3/ngx-cache) - Кеширование в Angular
+* [ngx-i18n-router](https://github.com/fulls1z3/ngx-i18n-router) - Роутинг с учетом локализации
+* [ngx-auth](https://github.com/fulls1z3/ngx-auth)  Сервис аутентификации
+* [angular-promise-buttons](https://github.com/johannesjo/angular2-promise-buttons) - Кнопка загрузки
+* [ng-archwizard](https://github.com/madoar/ng2-archwizard) - Wizard компонент
+* [ngx-popper](https://github.com/MrFrankel/ngx-popper) - Tooltip менеджер на основе popper.js(https://popper.js.org/)
+* [ngx-avatar](https://github.com/HaithemMosbahi/ngx-avatar) - Компонент аватарок
+* [ngx-qrcode2](https://github.com/techiediaries/ngx-qrcode) - Компонент для генерации QR (Quick Response ) кода 
+* [ng2-permission](https://github.com/JavadRasouli/ng2-permission) - Полнофункциональный контроль доступа на основе ролей и прав в вашем приложении [`angular-permission`](https://github.com/Narzerus/angular-permission).
+* [ng-s-resource](https://github.com/hiyali/ng-s-resource) - Простой RESTful http генератор ресурсов
+* [ng-data-picker](https://github.com/hiyali/ng-data-picker) - Data picker
+* [ngx-siema](https://github.com/lexzhukov/ngx-siema) - Простая карусель
+* [ng-bootstrap](https://ng-bootstrap.github.io) - Angular директивы для Bootstrap 4
+* [ng-snotify](https://github.com/artemsky/ng-snotify/) - Angular Notification Center
+* [ngx-permissions](https://github.com/AlexKhymenko/ngx-permissions) - Управление доступом и ролями
+* [nebular](https://github.com/akveo/nebular) - Фреймворк Nebular основанный на Angular
+* [ng-select](https://github.com/ng-select/ng-select) ng-select (Select, Multiselect, Autocomplete)
+* [ng-katex](https://github.com/garciparedes/ng-katex) Модуль для математических выражений с синтаксисом TeX
+* [ng-fullcalendar](https://github.com/Jamaks/ng-fullcalendar) Jquery календарь для Angular
 
 <h3 id="pipes">Пайпы (pipes)</h3>
 
