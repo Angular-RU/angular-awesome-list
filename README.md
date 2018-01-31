@@ -739,49 +739,90 @@ export class MyComponent {
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
 
 <h3 id="universal-angular">Angular Universal</h3>
-<h2 id="universal-general-resources">Universal (основные ресурсы)</h2>
-<h2 id="universal-seed-projects">Основные источники</h2>
+> Universal (изоморфный) - рендеринг приложений Angular на серверной стороне
+
+<h4 id="universal-general-resources">Universal (основные ресурсы)</h4>
+* [Официальный репозиторий (GitHub)](https://github.com/angular/universal)
+
+<h4 id="universal-seed-projects">Основные источники</h4>
+* [universal-starter](https://github.com/angular/universal-starter) - Angular Universal стартер от @Angular-Class
+* [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
 
 <h3 id="angular-in-typescript">TypeScript</h3>
-<h2 id="typescript-general-resources">TypeScript (основные ресурсы)</h2>
-<h2 id="typescript-seed-projects">Основные источники</h2>
+> TypeScript позволяет вам писать код на JavaScript так, как вы этого хотите.
+TypeScript является типизированным надмножеством JavaScript, который компилируется в JavaScript.
+
+<h4 id="typescript-general-resources">TypeScript (основные ресурсы)</h4>
+* [TypeScript](http://www.typescriptlang.org/) Официальный сайт TypeScript
+* [REPL](http://www.typescriptlang.org/play/) Официальная онлайн-среда для компиляции TypeScript в браузере
+* [Официальный репозиторий (GitHub)](https://github.com/Microsoft/TypeScript)
+* [DefinitelyTyped официальный репозиторий (GitHub)](https://github.com/DefinitelyTyped/DefinitelyTyped) Высококачественные определения типов 
+
+<h4 id="typescript-seed-projects">Основные источники</h4>
+* [Angular стартер от @mgechev](https://mgechev.github.io/angular-seed/) Angular стартер (Angular 5+, TypeScript, Gulp, ..)
+* [TypeScript](http://www.typescriptlang.org), [Angular Flex Layout](https://github.com/angular/flex-layout), [Material 2](https://material.angular.io), [AOT](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), unit/e2e тесты [Travis CI](https://travis-ci.org) и [Saucelabs](https://saucelabs.com).
+* [Angular подборка примеров](https://github.com/thelgevold/angular-2-samples)
+* [Angular, Angular CLI, AngularFire2, OAuth, Immutable - пример](https://github.com/r-park/todo-angular-firebase)
+* [Spring Boot и Angular](https://github.com/springboot-angular2-tutorial/angular2-app) Практические примеры от [Rails](https://www.railstutorial.org/).
+* [Angular стартер с Gulp и Travis CI](https://github.com/antonybudianto/angular-starter)
+* [Angular Leaflet Starter](https://github.com/haoliangyu/ngx-leaflet-starter) - приложение с картами
+* [Angular MapboxGL Starter](https://github.com/haoliangyu/ngx-mapboxgl-starter) - Другой стартер с картами, основанный на Angular и MapboxGL JS
+* [Angular + websockets](https://github.com/mkusz/ng2_websockets_quickstart) - Простой счетчик с 2-way и 1-way взаимодействием по websockets
+* [ng-start](https://github.com/cebor/ng2-start) - Минимально настроенное angular приложение
+* [ng-kitchen-sink](https://github.com/born2net/Angular-kitchen-sink) - Пример SPA на Angular
+* [ng-skeleton](https://github.com/born2net/ng-skeleton) - Пример SPA на Angular c ngrx, bootstrap и двухфакторной авторизацией
+* [angular-demo](https://github.com/amcdnl/angular2-demo) Minimal Angular2 Demo using TypeScript / Sass / Npm Tasks
+* [Angular Dashboard Starter](https://github.com/hasanhameed07/angular2-dashboard-starter) - Простая панель управления на Angular 2 и AdminLTE
+* [ngx-admin](https://github.com/akveo/ngx-admin) - Панель управления на Nebular
+* [Angular стартер от @valor-software](https://github.com/valor-software/angular2-quickstart)
+* [Angular webpack стартер от @michaelbazos](https://github.com/michaelbazos/angular2-starter)
+* [ng-boiler](https://github.com/amcdnl/ng2-boiler) - Angular, TypeScript, Webpack
+* [Angular Webpack Starter](https://github.com/antonybudianto/angular-webpack-starter)
+* [Reaper](https://github.com/Xamber/Reaper) - Angular Webpack Starter Boilerplate
+* [famn](https://github.com/implustech/famn) - Angular + FeathersJS
+* [Angular NPM Module Seed](https://github.com/davguij/angular-npm-module-seed) 
+* [Angular2 D3v4 Seed](https://github.com/gp187/angular2-d3v4-graph) - Angular + реализация графиков
+* [ng-seed/spa](https://github.com/ng-seed/spa) - Angular, Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, and TSLint/codelyzer
+* [Reboard](https://github.com/ksiabani/reboard) - Angular, Material 2, ngx-charts от generator-ngx-rocket (Typescript, SASS, Webpack, Jasmine+Karma, Protractor, TSLint, Codelyzer, Stylelint, ngx-translate, Lodash, Angular Flex-Layout)
+* [Angular + Redux + Graphql + MySQL quickstart](https://github.com/rafaesc/fullstack-graphql-angular) - Простое приложение совместно с GraphQL, Angular CLI + Redux + Express + GraphQL + Sequelize (MySQL, Postgres, Sqlite, MSSQL).
+* [Angular5 + Firebase + Structure](https://github.com/naologic/angular5-starter) - Angular + Firebase 
 
 <h3 id="angular-in-dart">Dart</h3>
-<h2 id="dart-seed-projects">Основные источники</h2>
+<h4 id="dart-seed-projects">Основные источники</h4>
 
 <h3 id="angular-in-traceur">Traceur</h3>
-<h2 id="traceur-general-resources">Traceur (основные ресурсы)</h2>
-<h2 id="traceur-seed-projects">Основные источники</h2>
+<h4 id="traceur-general-resources">Traceur (основные ресурсы)</h4>
+<h4 id="traceur-seed-projects">Основные источники</h4>
 
 <h3 id="angular-in-babel">Babel</h3>
-<h2 id="babel-general-resources">Babel (основные ресурсы)</h2>
-<h2 id="babel-angular-online-playground">Online Playground</h2>
-<h2 id="babel-seed-projects">Основные источники</h2>
-<h2 id="babel-plugins">Babel плагины</h2>
+<h4 id="babel-general-resources">Babel (основные ресурсы)</h4>
+<h4 id="babel-angular-online-playground">Online Playground</h4>
+<h4 id="babel-seed-projects">Основные источники</h4>
+<h4 id="babel-plugins">Babel плагины</h4>
     
 <h3 id="angular-in-es5">ES5</h3>
-<h2 id="es5-seed-projects">Основные источники</h2>
+<h4 id="es5-seed-projects">Основные источники</h4>
 
 <h3 id="ionic-in-angular">Ionic</h3>
-<h2 id="ionic-general-resources">Ionic 2 (основные ресурсы)</h2>
+<h4 id="ionic-general-resources">Ionic 2 (основные ресурсы)</h4>
 
 <h3 id="meteor-in-angular">Meteor</h3>
-<h2 id="meteor-general-resources">Meteor (основные ресурсы)</h2>
-<h2 id="meteor-seed-projects">Основные источники</h2>
+<h4 id="meteor-general-resources">Meteor (основные ресурсы)</h4>
+<h4 id="meteor-seed-projects">Основные источники</h4>
 
 <h3 id="angular-in-nativescript">NativeScript</h3>
-<h2 id="nativescript-general-resources">NativeScript (основные ресурсы)</h2>
-<h2 id="nativescript-seed-projects">Основные источники</h2>
+<h4 id="nativescript-general-resources">NativeScript (основные ресурсы)</h4>
+<h4 id="nativescript-seed-projects">Основные источники</h4>
 
 <h3 id="angular-in-react-native">React Native</h3>
-<h2 id="react-native-general-resources">React Native (основные ресурсы)</h2>
-<h2 id="react-native-projects">Основные источники</h2>
+<h4 id="react-native-general-resources">React Native (основные ресурсы)</h4>
+<h4 id="react-native-projects">Основные источники</h4>
 
 <h3 id="angular-in-haxe">Haxe</h3>
-<h2 id="haxe-seed-projects">Основные источники</h2>
+<h4 id="haxe-seed-projects">Основные источники</h4>
 
 <h3 id="angular-in-scala">Scala</h3>
-<h2 id="scala-seed-projects">Основные источники</h2>
+<h4 id="scala-seed-projects">Основные источники</h4>
 
 <h3 id="angular-components-with-bit">Bit</h3>
 
