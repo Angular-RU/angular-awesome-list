@@ -739,9 +739,11 @@ export class MyComponent {
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
 
 <h3 id="universal-angular">Angular Universal</h3>
+
 > Universal (изоморфный) - рендеринг приложений Angular на серверной стороне
 
 <h4 id="universal-general-resources">Universal (основные ресурсы)</h4>
+
 * [Официальный репозиторий (GitHub)](https://github.com/angular/universal)
 
 <h4 id="universal-seed-projects">Основные источники</h4>
@@ -749,16 +751,20 @@ export class MyComponent {
 * [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
 
 <h3 id="angular-in-typescript">TypeScript</h3>
+
 > TypeScript позволяет вам писать код на JavaScript так, как вы этого хотите.
+
 TypeScript является типизированным надмножеством JavaScript, который компилируется в JavaScript.
 
 <h4 id="typescript-general-resources">TypeScript (основные ресурсы)</h4>
+
 * [TypeScript](http://www.typescriptlang.org/) Официальный сайт TypeScript
 * [REPL](http://www.typescriptlang.org/play/) Официальная онлайн-среда для компиляции TypeScript в браузере
 * [Официальный репозиторий (GitHub)](https://github.com/Microsoft/TypeScript)
 * [DefinitelyTyped официальный репозиторий (GitHub)](https://github.com/DefinitelyTyped/DefinitelyTyped) Высококачественные определения типов 
 
 <h4 id="typescript-seed-projects">Основные источники</h4>
+
 * [Angular стартер от @mgechev](https://mgechev.github.io/angular-seed/) Angular стартер (Angular 5+, TypeScript, Gulp, ..)
 * [TypeScript](http://www.typescriptlang.org), [Angular Flex Layout](https://github.com/angular/flex-layout), [Material 2](https://material.angular.io), [AOT](https://angular.io/docs/ts/latest/cookbook/aot-compiler.html), unit/e2e тесты [Travis CI](https://travis-ci.org) и [Saucelabs](https://saucelabs.com).
 * [Angular подборка примеров](https://github.com/thelgevold/angular-2-samples)
