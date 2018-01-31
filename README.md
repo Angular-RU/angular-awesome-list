@@ -747,6 +747,7 @@ export class MyComponent {
 * [Официальный репозиторий (GitHub)](https://github.com/angular/universal)
 
 <h4 id="universal-seed-projects">Основные источники</h4>
+
 * [universal-starter](https://github.com/angular/universal-starter) - Angular Universal стартер от @Angular-Class
 * [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
 
