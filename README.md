@@ -54,7 +54,42 @@
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
   * [TodoMVC](#todomvc)
-    
+  * [Angular Universal](#universal-angular)
+    * [Universal (основные ресурсы)](#universal-general-resources)
+    * [Основные источники](#universal-seed-projects)
+  * [TypeScript](#angular-in-typescript)
+    * [TypeScript (основные ресурсы)](#typescript-general-resources)
+    * [Основные источники](#typescript-seed-projects)
+  * [Dart](#angular-in-dart)
+    * [Основные источники](#dart-seed-projects)
+  * [Traceur](#angular-in-traceur)
+    * [Traceur (основные ресурсы)](#traceur-general-resources)
+    * [Основные источники](#traceur-seed-projects)
+  * [Babel](#angular-in-babel)
+    * [Babel (основные ресурсы)](#babel-general-resources)
+    * [Online Playground](#babel-angular-online-playground)
+    * [Основные источники](#babel-seed-projects)
+    * [Babel плагины](#babel-plugins)
+  * [ES5](#angular-in-es5)
+    * [Основные источники](#es5-seed-projects)
+  * [Ionic](#ionic-in-angular)
+    * [Ionic 2 (основные ресурсы)](#ionic-general-resources)
+  * [Meteor](#meteor-in-angular)
+    * [Meteor (основные ресурсы)](#meteor-general-resources)
+    * [Основные источники](#meteor-seed-projects)
+  * [NativeScript](#angular-in-nativescript)
+    * [NativeScript (основные ресурсы)](#nativescript-general-resources)
+    * [Основные источники](#nativescript-seed-projects)
+  * [React Native](#angular-in-react-native)
+    * [React Native (основные ресурсы)](#react-native-general-resources)
+    * [Основные источники](#react-native-projects)
+  * [Haxe](#angular-in-haxe)
+    * [Основные источники](#haxe-seed-projects)
+  * [Scala](#angular-in-scala)
+    * [Основные источники](#scala-seed-projects)
+  * [Bit](#angular-components-with-bit)
+  * [Security](#security)
+  * [NgRx](#ngrx)
 --------
 
 <h2 id="angular">Angular</h2>
@@ -702,3 +737,54 @@ export class MyComponent {
 <h3 id="todomvc">TodoMVC</h3>
 
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
+
+<h3 id="universal-angular">Angular Universal</h3>
+<h2 id="universal-general-resources">Universal (основные ресурсы)</h2>
+<h2 id="universal-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-typescript">TypeScript</h3>
+<h2 id="typescript-general-resources">TypeScript (основные ресурсы)</h2>
+<h2 id="typescript-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-dart">Dart</h3>
+<h2 id="dart-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-traceur">Traceur</h3>
+<h2 id="traceur-general-resources">Traceur (основные ресурсы)</h2>
+<h2 id="traceur-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-babel">Babel</h3>
+<h2 id="babel-general-resources">Babel (основные ресурсы)</h2>
+<h2 id="babel-angular-online-playground">Online Playground</h2>
+<h2 id="babel-seed-projects">Основные источники</h2>
+<h2 id="babel-plugins">Babel плагины</h2>
+    
+<h3 id="angular-in-es5">ES5</h3>
+<h2 id="es5-seed-projects">Основные источники</h2>
+
+<h3 id="ionic-in-angular">Ionic</h3>
+<h2 id="ionic-general-resources">Ionic 2 (основные ресурсы)</h2>
+
+<h3 id="meteor-in-angular">Meteor</h3>
+<h2 id="meteor-general-resources">Meteor (основные ресурсы)</h2>
+<h2 id="meteor-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-nativescript">NativeScript</h3>
+<h2 id="nativescript-general-resources">NativeScript (основные ресурсы)</h2>
+<h2 id="nativescript-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-react-native">React Native</h3>
+<h2 id="react-native-general-resources">React Native (основные ресурсы)</h2>
+<h2 id="react-native-projects">Основные источники</h2>
+
+<h3 id="angular-in-haxe">Haxe</h3>
+<h2 id="haxe-seed-projects">Основные источники</h2>
+
+<h3 id="angular-in-scala">Scala</h3>
+<h2 id="scala-seed-projects">Основные источники</h2>
+
+<h3 id="angular-components-with-bit">Bit</h3>
+
+<h3 id="security">NgRx</h3>
+
+<h3 id="ngrx">Security</h3>
