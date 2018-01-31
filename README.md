@@ -185,10 +185,14 @@
 * [Чат от dartlang.slack.com в Slack](https://dartlang.slack.com/messages/angular2) 
 * [Подборка популярных Twitter's аккаунтов](http://theherdlocker.com/tweet/popularity/angular2)
 
+---
+
 <h3 id="server-side-rendering">Серверный рендеринг</h3>
 
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
+
+---
 
 <h3 id="cheatsheet">Cheatsheet (чит-лист)</h3>
 
@@ -196,6 +200,8 @@
 * [Официальный cheatsheet по AngularDart](https://docs.google.com/document/d/1FYyA-b9rc2UtlYyQXjW7lx4Y08MSpuWcbbuqVCxHga0/edit#heading=h.34sus6g4zss3)
 * [Еще один cheatsheet для AngularDart](https://github.com/andresaraujo/angular2_cheatsheet_dart)
 * [Чек-лист Angular Performance](https://github.com/mgechev/angular-performance-checklist)
+
+---
 
 <h3 id="angular-ui">UI библиотеки</h3>
 
@@ -209,6 +215,7 @@
 * [Material Light](https://github.com/YagoLopez/material-light) 
 * [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
 
+---
 
 <h3 id="features">Важные особенности</h3>
 
@@ -458,10 +465,13 @@ export class MyComponent {
 * [Пример кода с Webpack и AOT](https://github.com/blacksonic/angular2-aot-webpack)
 * [Пример кода с Rollup и AOT](https://github.com/mgechev/angular2-ngc-rollup-build)
 
+---
 
 ### Angular CLI
 * [Официальный сайт](https://cli.angular.io/)
 * [Официальный репозиторий](https://github.com/angular/angular-cli)
+
+---
 
 <h3 id="webpack">Webpack стартеры</h3>
 
@@ -471,6 +481,8 @@ export class MyComponent {
 * [Angular Nightly Webpack стартер](https://github.com/qdouble/angular-webpack2-starter)
 * [Angular Webpack стартер с ASP.NET Core от Damien Bowden](https://github.com/damienbod/AngularWebpackVisualStudio)
 * [Webpack конфигурация для Angular разработки от ng-seed](https://github.com/ng-seed/angular-webpack-config)
+
+---
 
 <h3 id="series">Публикации</h3>
 
@@ -492,6 +504,8 @@ export class MyComponent {
   * Angular and Firebase
     * [Учимся настраивать и работать AngularFire](https://medium.com/letsboot/lets-learn-how-to-install-and-setup-angularfire2-4-0-135d72bb0a41)
 
+---
+
 <h3 id="video-tutorials">Видеоуроки</h3>
 
 * [Egghead.io - Angular](https://egghead.io/technologies/angular2)
@@ -511,10 +525,14 @@ export class MyComponent {
 * [Angular Fullstack](https://www.youtube.com/channel/UCRefxaAA-7PfezH3CY87fzw)
 * [Angular Master Class](https://www.udemy.com/angular-crash-course-for-beginners)
 
+---
+
 <h3 id="style-guides">Стайл-гайды</h3>
 
 * [Официальный Angular Style guide](https://angular.io/guide/styleguide)
 * [Описание того, как нужно составлять правила для TSLint](https://github.com/ng-seed/angular-tslint-rules)
+
+---
 
 <h3 id="angular-connect">Angular Connect конференция</h3>
 
@@ -529,6 +547,8 @@ export class MyComponent {
 * [Модульность Angular приложений – Pawel Kozlowski](https://www.youtube.com/watch?v=9odY9Rh5kTQ)
 * [Создание приложений реального времени на Angular и Meteor - Uri Goldshtein](https://www.youtube.com/watch?v=3FT0BqYASCo)
 
+---
+
 <h3 id="books">Книги</h3>
 
 * [ng-book 2](https://www.ng-book.com/2/) `fullstack.io`
@@ -540,6 +560,8 @@ export class MyComponent {
 * [Angular тренинги](https://www.gitbook.com/book/rangle-io/ngcourse2/details) `Rangle.io`
 * [Изучаем Angular](http://learnangular2.com/) `Ionic Team`
 * [Тестирование Angular приложений](https://www.manning.com/books/testing-angular-applications) `Manning Publications`
+
+---
 
 <h3 id="on-site-training">Онлайн тренинги</h3>
 
@@ -553,6 +575,7 @@ export class MyComponent {
 * [Letsboot.com](https://www.letsboot.com/angular-2-in-house-training-support)
 * [Free on-site 2-days training delivered by SFEIR (in France)](https://school.sfeir.com/project/sa200/)
 
+---
 
 <h3 id="approach-and-explanation">Подборка статей</h3>
 
@@ -599,6 +622,8 @@ export class MyComponent {
 * Burak Tasci (fulls1z3)
   * [Angular - server side rendering (Angular Universal)](https://medium.com/burak-tasci/angular-4-with-server-side-rendering-aka-angular-universal-f6c228ded8b0)
   
+---
+
 <h3 id="integrations">Интеграции</h3>
 
 * [FalcorJS + Angular (видео)] (https://www.youtube.com/watch?v=z8UgDZ4rXBU&feature=youtu.be)
@@ -606,6 +631,8 @@ export class MyComponent {
 * [NativeScript + Angular] (https://github.com/NativeScript/nativescript-angular)
 * [ReactNative + Angular] (https://github.com/angular/react-native-renderer)
 * [GraphQL + Angular] (https://github.com/apollographql/apollo-angular)
+
+---
 
 <h3 id="components-list">Компоненты</h3>
 
@@ -698,6 +725,8 @@ export class MyComponent {
 * [ng-katex](https://github.com/garciparedes/ng-katex) Модуль для математических выражений с синтаксисом TeX
 * [ng-fullcalendar](https://github.com/Jamaks/ng-fullcalendar) Jquery календарь для Angular
 
+---
+
 <h3 id="pipes">Пайпы (pipes)</h3>
 
 * [fuel-ui](https://github.com/FuelInteractive/fuel-ui) - OrderBy и Range, портированные из AngularJS 1.x в Angular
@@ -705,6 +734,8 @@ export class MyComponent {
 * [ngx-pipes](https://github.com/danrevah/ngx-pipes) набор полезных пайпов для Angular
 * [ngx-order-pipe](https://github.com/VadimDez/ngx-order-pipe) OrderBy - сортировка коллекций
 * [angular2-camelcase](https://github.com/previousdeveloper/angular2-camelcase) Пайп для преобразования строк в camelCase
+
+---
 
 <h3 id="site-templates">Примеры приложений</h3>
 
@@ -727,6 +758,8 @@ export class MyComponent {
   * Stagehand
     * [google/stagehand](https://github.com/google/stagehand)
 
+---
+
 <h3 id="documentation-tools">Инструменты документации</h3>
 
 * [Storybook](https://github.com/storybooks/storybook): "Cреда разработки, которую вы полюбите"
@@ -734,9 +767,13 @@ export class MyComponent {
 * [AngularDoc](http://angulardoc.io/): Веб-сайт, отображающий "Архитектуру и визуализацию Angular-приложения"
 * [NgModule-Viz](https://github.com/politie/ngmodule-viz): Визуализация связей между NgModules и зависимостями в Angular
 
+---
+
 <h3 id="todomvc">TodoMVC</h3>
 
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
+
+---
 
 <h3 id="universal-angular">Angular Universal</h3>
 
@@ -750,6 +787,8 @@ export class MyComponent {
 
 * [universal-starter](https://github.com/angular/universal-starter) - Angular Universal стартер от @Angular-Class
 * [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
+
+---
 
 <h3 id="angular-in-typescript">TypeScript</h3>
 
@@ -794,12 +833,18 @@ TypeScript является типизированным надмножеств�
 * [Angular + Redux + Graphql + MySQL quickstart](https://github.com/rafaesc/fullstack-graphql-angular) - Простое приложение совместно с GraphQL, Angular CLI + Redux + Express + GraphQL + Sequelize (MySQL, Postgres, Sqlite, MSSQL).
 * [Angular5 + Firebase + Structure](https://github.com/naologic/angular5-starter) - Angular + Firebase 
 
+---
+
 <h3 id="angular-in-dart">Dart</h3>
 <h4 id="dart-seed-projects">Основные источники</h4>
+
+---
 
 <h3 id="angular-in-traceur">Traceur</h3>
 <h4 id="traceur-general-resources">Traceur (основные ресурсы)</h4>
 <h4 id="traceur-seed-projects">Основные источники</h4>
+
+---
 
 <h3 id="angular-in-babel">Babel</h3>
 <h4 id="babel-general-resources">Babel (основные ресурсы)</h4>
@@ -807,32 +852,52 @@ TypeScript является типизированным надмножеств�
 <h4 id="babel-seed-projects">Основные источники</h4>
 <h4 id="babel-plugins">Babel плагины</h4>
     
+---
+
 <h3 id="angular-in-es5">ES5</h3>
 <h4 id="es5-seed-projects">Основные источники</h4>
 
+---
+
 <h3 id="ionic-in-angular">Ionic</h3>
 <h4 id="ionic-general-resources">Ionic 2 (основные ресурсы)</h4>
+
+---
 
 <h3 id="meteor-in-angular">Meteor</h3>
 <h4 id="meteor-general-resources">Meteor (основные ресурсы)</h4>
 <h4 id="meteor-seed-projects">Основные источники</h4>
 
+---
+
 <h3 id="angular-in-nativescript">NativeScript</h3>
 <h4 id="nativescript-general-resources">NativeScript (основные ресурсы)</h4>
 <h4 id="nativescript-seed-projects">Основные источники</h4>
+
+---
 
 <h3 id="angular-in-react-native">React Native</h3>
 <h4 id="react-native-general-resources">React Native (основные ресурсы)</h4>
 <h4 id="react-native-projects">Основные источники</h4>
 
+---
+
 <h3 id="angular-in-haxe">Haxe</h3>
 <h4 id="haxe-seed-projects">Основные источники</h4>
+
+---
 
 <h3 id="angular-in-scala">Scala</h3>
 <h4 id="scala-seed-projects">Основные источники</h4>
 
+---
+
 <h3 id="angular-components-with-bit">Bit</h3>
 
+---
+
 <h3 id="security">NgRx</h3>
+
+---
 
 <h3 id="ngrx">Security</h3>
