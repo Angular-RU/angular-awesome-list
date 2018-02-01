@@ -160,6 +160,7 @@
 * [hirez.io (@hirez_io)](https://twitter.com/hirez_io)
 * [hypedrivendev.io (@cedric_exbrayat)](https://twitter.com/cedric_exbrayat)
 * [amcdnl.com (@amcdnl)](https://twitter.com/amcdnl)
+* [ultimateangular.com (@ultimateangular)](https://twitter.com/ultimateangular)
 
 ##### Митапы:
 
