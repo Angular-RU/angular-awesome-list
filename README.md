@@ -62,9 +62,6 @@
     * [Основные источники](#typescript-seed-projects)
   * [Dart](#angular-in-dart)
     * [Основные источники](#dart-seed-projects)
-  * [Traceur](#angular-in-traceur)
-    * [Traceur (основные ресурсы)](#traceur-general-resources)
-    * [Основные источники](#traceur-seed-projects)
   * [Babel](#angular-in-babel)
     * [Babel (основные ресурсы)](#babel-general-resources)
     * [Online Playground](#babel-angular-online-playground)
@@ -837,43 +834,104 @@ TypeScript является типизированным надмножеств�
 ---
 
 <h3 id="angular-in-dart">Dart</h3>
+
+> Dart — язык программирования, созданный Google. Dart позиционируется в качестве замены/альтернативы JavaScript. Dart - это масштабируемый язык программирования с открытым исходным кодом, с качественными библиотеками и рантаймом, для создания веб-приложений, серверов и мобильных приложений.
+
 <h4 id="dart-seed-projects">Основные источники</h4>
 
----
-
-<h3 id="angular-in-traceur">Traceur</h3>
-<h4 id="traceur-general-resources">Traceur (основные ресурсы)</h4>
-<h4 id="traceur-seed-projects">Основные источники</h4>
+* [Dart](https://www.dartlang.org/) Официальный сайт 
+* [Dartpad](https://dartpad.dartlang.org/) Dartpad позволяет вам писать на языке Dart прямо в браузере (аналог Typescript playground)
+* [Официальный репозиторий (GitHub)](https://github.com/dart-lang)
+* [Pub](https://pub.dartlang.org/) Репозиторий пакетов для Dart (аналог npm registry или любых других)
+* [Dartisans](https://plus.google.com/communities/114566943291919232850) Официальное коммьюнити на Google Plus  
+* [Dart Slack Channel](https://dartlang-slack.herokuapp.com/) Официальный канал в Slack
+* [Angular Dart Quickstart](https://webdev.dartlang.org/angular/tutorial/toh-pt0)
 
 ---
 
 <h3 id="angular-in-babel">Babel</h3>
+
+> Babel – предназначен для транспиляции современного JS кода в код работающий на предыдущем стандарте, к примеру ES5. 
+
 <h4 id="babel-general-resources">Babel (основные ресурсы)</h4>
-<h4 id="babel-angular-online-playground">Online Playground</h4>
+
+* [Babel](https://babeljs.io/) Официальный сайт Babel
+* [REPL](https://babeljs.io/repl/) Официальный REPL, который позволяет вам писать на современном ES6+ языке и видеть его результат
+* [Официальный репозиторий Babel (GitHub)](https://github.com/babel/babel)
+
+<h4 id="babel-angular-online-playground">Angular Online Playground</h4>
+
+* [Plunker: Angular + Babel](http://plnkr.co/edit/PxCzCu?p=preview)
+
 <h4 id="babel-seed-projects">Основные источники</h4>
+
+* [babel-angular-app](https://github.com/shuhei/babel-angular2-app) Макет Angular приложения для [Babel](https://babeljs.io/) и [Browserify](http://browserify.org/)
+* [angular-fullstack-starter](https://github.com/jgodi/angular2-fullstack-starter) Angular приложение + Webpack/Babel
+* [angular-es6-starter](https://github.com/blacksonic/angular2-babel-esnext-starter) Angular приложение на ES6, Babel, Webpack, Gulp
+* [angular-babel-seed](https://github.com/rbnlffl/angular-babel-seed) Простое Angular приложение на ES6
+* [angular-es6-todomvc](https://github.com/blacksonic/angular2-esnext-todomvc) Angular TodoMVC + ES6
+* [ng1-ng2-webpack-lazy-uirouter](https://github.com/swimlane/ng1-ng4-webpack-lazy-uirouter) Гибридное приложение на AngularJS + Angular в связке с UI-Router, Webpack, Babel
+
 <h4 id="babel-plugins">Babel плагины</h4>
+
+* [babel-preset-angular](https://github.com/shuhei/babel-preset-angular2) Babel пресеты (presets) для Angular
+* [babel-plugin-type-assertion](https://github.com/shuhei/babel-plugin-type-assertion) Babel плагин для поддержки типизации в JS
     
 ---
 
 <h3 id="angular-in-es5">ES5</h3>
+
+> ECMAScript включает в себя структурированные, динамические, функциональные и прототипные фичи
+
 <h4 id="es5-seed-projects">Основные источники</h4>
+
+[angular-es5-starter-kit](https://github.com/islam-muhammad/angular2-es5) Пример Angular приложения на ES5 
 
 ---
 
 <h3 id="ionic-in-angular">Ionic</h3>
-<h4 id="ionic-general-resources">Ionic 2 (основные ресурсы)</h4>
+
+> Ionic - это прекрасный SDK с открытым исходным кодом для разработки гибридных мобильных приложений. 
+
+* [Ionic Framework](http://ionicframework.com) Официальный сайт
+* [Ionic Documentation](http://ionicframework.com/docs/) Официальная документация
+
+<h4 id="ionic-general-resources">Ionic (основные ресурсы)</h4>
+
+* [Ionic официальный репозиторий (GitHub)](https://github.com/ionic-team/ionic)
+* [Ionic подборка ресурсов](https://github.com/candelibas/awesome-ionic)
+* [Angular CLI Admin (Template)](https://github.com/jvitor83/angular-pwa-seed) Кроссплатформенный и кроссбраузерный стартер Angular  (Web/PWA, Mobile, Desktop) + Ionic
 
 ---
 
 <h3 id="meteor-in-angular">Meteor</h3>
+
+> Meteor — веб-платформа на языке JavaScript, предназначенная для разработки Web-приложений реального времени.
+
 <h4 id="meteor-general-resources">Meteor (основные ресурсы)</h4>
+
+* [Angular Meteor](http://angular-meteor.com/) Официальный сайт
+* [Пример аналога WhatsUp на Angular-Meteor + Ionic](https://www.angular-meteor.com/angular2)
+
 <h4 id="meteor-seed-projects">Основные источники</h4>
+
+* [Angular Meteor стартер](https://github.com/KyneSilverhide/angular2-meteor-seed)
 
 ---
 
 <h3 id="angular-in-nativescript">NativeScript</h3>
+
+> Создайвайте действительно нативные iOS, Android приложения на JS (TS) + CSS. NativeScript - кроссплатформенный фреймворк с открытым исходным кодом.
+
 <h4 id="nativescript-general-resources">NativeScript (основные ресурсы)</h4>
+
+* [NativeScript](https://www.nativescript.org/) Официальный сайт NativeScript
+* [Примеры использования NativeScript](http://www.syntaxsuccess.com/viewarticle/using-nativescript-with-angular-2.0)
+
 <h4 id="nativescript-seed-projects">Основные источники</h4>
+
+* [Простой пример на Angular](https://github.com/NativeScript/sample-Angular2)
+* [Крутой стартер на Angular](https://github.com/NathanWalker/angular-seed-advanced)
 
 ---
 
