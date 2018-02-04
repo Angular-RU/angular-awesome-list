@@ -4,11 +4,9 @@
   </a>
 </p>
 
-# Awesome Angular [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/gdi2290/awesome-angular)
+# Awesome Angular [![Awesome TipeIO](https://img.shields.io/badge/Awesome%20Angular-@TipeIO-6C6AE7.svg)](https://github.com/gdi2290/awesome-angular) [![Awesome devarchy.com](https://img.shields.io/badge/Awesome%20Angular-@devarchy.com-86BDC1.svg)](https://github.com/brillout/awesome-angular-components)
 
-Здесь вы найдете список полезных репозиториев, стартеры, примеры, учебные пособия, компоненты, модули, видеоролики и все остальное причастное к экосистеме Angular.
-
- [![Angular-RU](https://img.shields.io/badge/Telegram_chat:-Angular_RU-216bc1.svg?style=flat)](https://t.me/angular_ru)
+Здесь вы найдете список полезных репозиториев, стартеры, примеры, учебные пособия, компоненты, модули, видеоролики и все остальное причастное к экосистеме Angular. Подписывайте на наш канал в телеграмме: [![Angular-RU](https://img.shields.io/badge/Telegram_chat:-Angular_RU-216bc1.svg?style=flat)](https://t.me/angular_ru)
 
 ##### Current Angular version:
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/~angular)
@@ -299,7 +297,7 @@ export class MyComponent {
 @Directive({
   selector: '[bold]'
 })
-export class BoldDirective{
+export class BoldDirective {
      
     constructor(private elementRef: ElementRef){
         this.elementRef.nativeElement.style.fontWeight = "bold";
