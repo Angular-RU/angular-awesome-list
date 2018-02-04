@@ -49,7 +49,7 @@
   * [Подборка статей](#approach-and-explanation)
   * [Интеграция](#integrations)
   * [Компоненты](#components-list)
-  * [Пайпы](#pipes)
+  * [Пайпы](#pipes-seed)
   * [Примеры приложений](#site-templates)
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
@@ -727,7 +727,7 @@ export class MyComponent {
 
 ---
 
-<h3 id="pipes">Пайпы (pipes)</h3>
+<h3 id="pipes-seed">Пайпы (pipes)</h3>
 
 * [fuel-ui](https://github.com/FuelInteractive/fuel-ui) - OrderBy и Range, портированные из AngularJS 1.x в Angular
 * [ngx-filter-pipe](https://github.com/VadimDez/ngx-filter-pipe) Пайп (pipe) для фильтрации массивов
