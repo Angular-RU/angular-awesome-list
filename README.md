@@ -39,7 +39,12 @@
     * [Тестирование](#test)
     * [Ahead-of-Time компиляция](#aot)
   * [Angular CLI](#angular-cli)
+  * [Dev Tools](#dev-tools)
+  * [Starter Kit](#starter-kit)
   * [Webpack стартеры](#webpack)
+  * [Angular Universal](#universal-angular)
+    * [Universal (основные ресурсы)](#universal-general-resources)
+    * [Основные источники](#universal-seed-projects)
   * [Публикации](#series)
   * [Видеоуроки](#video-tutorials)
   * [Стайл-гайды](#style-guides)
@@ -54,9 +59,6 @@
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
   * [TodoMVC](#todomvc)
-  * [Angular Universal](#universal-angular)
-    * [Universal (основные ресурсы)](#universal-general-resources)
-    * [Основные источники](#universal-seed-projects)
   * [TypeScript](#angular-in-typescript)
     * [TypeScript (основные ресурсы)](#typescript-general-resources)
     * [Основные источники](#typescript-seed-projects)
@@ -466,19 +468,58 @@ export class MyComponent {
 ---
 
 ### Angular CLI
-* [Официальный сайт](https://cli.angular.io/)
+
+> Angular CLI - инструмент для быстрой разработки приложений на Angular
+
+* [Официальный сайт](https://cli.angular.io/) 
 * [Официальный репозиторий](https://github.com/angular/angular-cli)
+
+---
+
+### Dev Tools
+
+* [@compodoc/ngd-cli](https://github.com/compodoc/ngd) - Просмотр зависимостей в Angular
+* [angular-playground](http://www.angularplayground.it/) - Scenario Driven Development
+* [@ngrx/store-devtools](https://github.com/ngrx/store-devtools) - Инструменты разработчика для @ngrx/store.
+* [angular-prettyjson](https://github.com/matiboy/angular2-prettyjson) - Улучшенный вывод объектов в шаблоне для отладки (директива json)
+* [Augury](https://github.com/rangle/augury) - Chrome расширение разработчика для отладки 
+* [angular-webpack-config](https://github.com/ng-seed/angular-webpack-config) - Заготовленная Webpack конфигурация для быстрого старта
+
+---
+
+### Starter Kit
+
+* [test-angular-seed-project](https://github.com/angular/angular2-seed) - Простой стартер Angular
+ - [generator-ng-fullstack](https://github.com/ericmdantas/generator-ng-fullstack) - ng-fullstack yeoman генератор
+ - [asaf-test](https://github.com/preboot/angular-library-seed) - Angular стартер от preboot
+ - [angular-seed](https://github.com/mgechev/angular-seed) - Angular стартер от Minko Gechev - [clarity-seed](https://github.com/vmware/clarity-seed) - Clarity Design System's стартер
+ - [Colmena CMS](https://github.com/colmena/colmena-cms) - Colmena CMS (LoopBack + Angular)
 
 ---
 
 <h3 id="webpack">Webpack стартеры</h3>
 
 * [Официальный сайт Webpack](https://webpack.js.org)
-* [Angular Webpack стартер от PatrickJS](https://github.com/gdi2290/angular-starter)
+* [Angular Webpack стартер от AngularClass (@PatrickJS)](https://github.com/gdi2290/angular-starter)
 * [Angular Webpack стартер от Preboot](https://github.com/preboot/angular-webpack)
 * [Angular Nightly Webpack стартер](https://github.com/qdouble/angular-webpack2-starter)
 * [Angular Webpack стартер с ASP.NET Core от Damien Bowden](https://github.com/damienbod/AngularWebpackVisualStudio)
 * [Webpack конфигурация для Angular разработки от ng-seed](https://github.com/ng-seed/angular-webpack-config)
+
+---
+
+<h3 id="universal-angular">Angular Universal</h3>
+
+> Universal (изоморфный) - рендеринг приложений Angular на серверной стороне
+
+<h4 id="universal-general-resources">Universal (основные ресурсы)</h4>
+
+* [Официальный репозиторий (GitHub)](https://github.com/angular/universal)
+
+<h4 id="universal-seed-projects">Основные источники</h4>
+
+* [universal-starter](https://github.com/angular/universal-starter) - Angular Universal стартер от @Angular-Class
+* [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
 
 ---
 
@@ -626,11 +667,29 @@ export class MyComponent {
 
 <h3 id="integrations">Интеграции</h3>
 
-* [FalcorJS + Angular (видео)] (https://www.youtube.com/watch?v=z8UgDZ4rXBU&feature=youtu.be)
-* [Angular + Meteor] (http://angular-meteor.com/angular2)
-* [NativeScript + Angular] (https://github.com/NativeScript/nativescript-angular)
-* [ReactNative + Angular] (https://github.com/angular/react-native-renderer)
-* [GraphQL + Angular] (https://github.com/apollographql/apollo-angular)
+* [FalcorJS + Angular (видео)](https://www.youtube.com/watch?v=z8UgDZ4rXBU&feature=youtu.be)
+* [Angular + Meteor](http://angular-meteor.com/angular2)
+* [NativeScript + Angular](https://github.com/NativeScript/nativescript-angular)
+* [ReactNative + Angular](https://github.com/angular/react-native-renderer)
+* [GraphQL + Angular](https://github.com/apollographql/apollo-angular)
+* [angularfire2](https://github.com/angular/angularfire2) - Официальная библиотека Angular для Firebase
+* [angular-jwt](https://github.com/auth0/angular2-jwt) Библиотека для отправки аутентифицированных HTTP-запросов и декодирования JWT
+* [angular-meteor](https://github.com/Urigo/angular-meteor) - Angular + Meteor
+* [angulartics2](https://github.com/angulartics/angulartics2) - GoogleAnalytics + Angular
+* [perfectedtech-loopback-sdk-builder](https://github.com/mean-expert-official/loopback-sdk-builder) - SDKs LoopBack
+* [karma-typescript](https://github.com/monounity/karma-typescript) - Простой стартер для написания юнит тестов с Karma
+* [meteor-rxjs](https://github.com/Urigo/mongo-rxjs-observable) - Имплементация Mongo + RxJS Observable
+* [wp-api-angular](https://github.com/shprink/wp-api-angular) - Angular сервисы для WordPress WP-API(v2) or WP >= 4.7
+* [selfbits-angular-sdk](https://github.com/selfbits/selfbits-angular2-sdk) - Angular SDK  Backend-as-a-Service.
+* [ng-wp-api](https://github.com/MurhafSousli/ng2-wp-api) - Angular WordPress модуль
+* [angular-disqus](https://github.com/Useful-Software-Solutions-Ltd/angular2-disqus) - DISQUS + Angular
+* [@cloudinary/angular](https://github.com/cloudinary/cloudinary_angular) - пользовательская библиотека Cloudinary
+* [ng-recaptcha](https://github.com/dethariel/ng2-recaptcha) - Angular + Google reCAPTCHA.
+* [angular-recaptcha](https://github.com/xmaestro/angular2-recaptcha) - Angular + Google reCaptcha (еще один компонент)
+* [pubnub-angular2](https://github.com/pubnub/pubnub-angular2) - Официальный PubNub для Angular
+* [ng-awesome-disqus](https://github.com/MurhafSousli/ng2-disqus) - Модуль для работы с Disqus
+* [angular-esri-loader](https://github.com/tomwayson/angular2-esri-loader) - ArcGIS API
+* [@ngx-universal/state-transfer](https://github.com/fulls1z3/ngx-universal) - Передача состояния в изоморфных приложениях
 
 ---
 
@@ -654,7 +713,6 @@ export class MyComponent {
 * [ag-grid](https://www.ag-grid.com/) Улучшенный Datagrid
 * [angular-query-builder](https://github.com/zebzhao/Angular-QueryBuilder) Усовершенствованные запросы на основе jquery QueryBuilder
 * [angular-grid](https://github.com/BTMorton/angular2-grid) drag/drop/resize сетка
-* [angular-jwt](https://github.com/auth0/angular2-jwt) Библиотека для отправки аутентифицированных HTTP-запросов и декодирования JWT
 * [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплеминтирующая из AngularJS 1.x $cookies-сервис в Angular
 * [angular-fontawesome](https://github.com/travelist/angular2-fontawesome) Angular компоненты и директивы для Fontawesome
 * [angular-safeguard](https://github.com/MikaAK/angular-safeguard) Обертка над cookies/sessionStorage/localStorage
@@ -682,6 +740,7 @@ export class MyComponent {
 * [angular-busy](https://github.com/devyumao/angular2-busy) Индекатор загрузки для Promise, Observable's
 * [ng-pdf-viewer](https://github.com/VadimDez/ng2-pdf-viewer) PDF viewer на Angular
 * [Covalent](https://teradata.github.io/covalent/) - UI набор компонентов на основе Material Design
+* [ng2-alfresco-core](https://github.com/Alfresco/alfresco-ng2-components) - Alfresco набор компонентов
 * [angular-infinite-scroll](https://www.npmjs.com/package/angular2-infinite-scroll) - Бесконечный скролл на Angular
 * [ng-card](https://github.com/c-bata/ng2-card) - Card-компоненты
 * [Wijmo 5](http://wijmo.com/products/wijmo-5/) - Набор компонентов пользовательского интерфейса для Angular
@@ -776,21 +835,6 @@ export class MyComponent {
 <h3 id="todomvc">TodoMVC</h3>
 
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
-
----
-
-<h3 id="universal-angular">Angular Universal</h3>
-
-> Universal (изоморфный) - рендеринг приложений Angular на серверной стороне
-
-<h4 id="universal-general-resources">Universal (основные ресурсы)</h4>
-
-* [Официальный репозиторий (GitHub)](https://github.com/angular/universal)
-
-<h4 id="universal-seed-projects">Основные источники</h4>
-
-* [universal-starter](https://github.com/angular/universal-starter) - Angular Universal стартер от @Angular-Class
-* [ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер с Webpack, dev/prod modes, DLLs, AoT compilation, HMR, SCSS compilation, lazy loading, config, cache, i18n, SEO, TSLint/codelyzer
 
 ---
 
