@@ -852,10 +852,10 @@ export class MyComponent {
 * [igniteui-angular2](https://github.com/IgniteUI/igniteui-angular2) - Ignite UI
 * [igniteui-js-blocks](https://github.com/IgniteUI/igniteui-js-blocks) - Mobile-first нативный компонент
 * [devextreme-angular](https://github.com/DevExpress/devextreme-angular) - DevExtreme виджеты
-* [ng2-fullpage](https://github.com/meiblorn/ng2-fullpage) - Angular fullpage скроллинг
+* [ng-fullpage](https://github.com/meiblorn/ng2-fullpage) - Angular fullpage скроллинг
 * [ngresizable](https://github.com/mgechev/ngresizable) - Растягиваемые компоненты
 * [@angular/flex-layout](https://github.com/angular/flex-layout)
-* [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) - Нативные директивы для Bootstrap
+* [ng-bootstrap](https://github.com/valor-software/ng2-bootstrap) - Нативные директивы для Bootstrap
 * [@ng-bootstrap/ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) - Angular + Bootstrap
 * [angular-materialize](https://github.com/InfomediaLtd/angular2-materialize) - Angular + Materialize
 * [ng-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) - Semantic UI
