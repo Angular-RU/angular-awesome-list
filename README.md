@@ -79,7 +79,6 @@
     * [Основные источники](#nativescript-seed-projects)
   * [React Native](#angular-in-react-native)
     * [React Native (основные ресурсы)](#react-native-general-resources)
-    * [Основные источники](#react-native-projects)
   * [Haxe](#angular-in-haxe)
     * [Основные источники](#haxe-seed-projects)
   * [Scala](#angular-in-scala)
@@ -359,10 +358,10 @@ export class MyComponent {
 @Pipe({ name: 'factorial' })
 export class FactorialPipe implements PipeTransform {
   transform(value: number, args?: any): number {
-    if(value<=0) return 0;
+    if (value <= 0) return 0;
      
     let result = 1;
-    for(let i=1; i<=value; i++){
+    for (let i = 1; i <= value; i++) {
         result = result * i;
     }
     
@@ -936,27 +935,75 @@ TypeScript является типизированным надмножеств�
 ---
 
 <h3 id="angular-in-react-native">React Native</h3>
+
+> React Native — это фреймворк для создания нативно отображаемых iOS- и Android-приложений.
+
+* [React Native](https://facebook.github.io/react-native/) Официальный сайт
+
 <h4 id="react-native-general-resources">React Native (основные ресурсы)</h4>
-<h4 id="react-native-projects">Основные источники</h4>
+
+* [Angular + React Native Renderer (GitHub)](https://github.com/angular/react-native-renderer)
 
 ---
 
 <h3 id="angular-in-haxe">Haxe</h3>
+
+> Haxe — это высокоуровневый мультиплатформенный язык программирования с открытым исходным кодом, а также компилятор, с помощью которого можно создавать приложения и генерировать исходный код для разных платформ, сохраняя единую кодовую базу. Haxe включает в себя функциональность, поддерживаемую на всех платформах, например: числовые типы данных, строки, массивы, а также поддержку некоторых файловых форматов (xml, zip). Haxe также включает в себя поддержку платформо-специфических API для Adobe Flash, C++, PHP и других языков. Код, написанный на языке Haxe, может быть транслирован в код ActionScript 3, JavaScript, Java, C#, C++, Python, Lua, PHP, Apache CGI, а также в приложение Node.js
+
 <h4 id="haxe-seed-projects">Основные источники</h4>
+
+* [Haxe.org](http://haxe.org)
+* [Haxe на Wikipedia](https://en.wikipedia.org/wiki/Haxe)
+* [Haxe Playground](https://try.haxe.org/)
+* [Haxe compiler](http://haxe.org/documentation/introduction/compiler-targets.html) список того, во что можно компилировать: C++, C#, Java, Python, PHP, ActionScript 3, Flash, Neko bytecode
+* [Haxe (результаты опросов)](blog.onthewings.net/2015/11/14/haxe_usage_survey/)
+* [Haxe группа](https://groups.google.com/forum/#!forum/haxelang) - коммьюнити
+* [Haxe и Node.js](matthijskamstra.github.io/haxenode/)
+* [Haxe: работа с JavaScript библиотеками](http://philippe.elsass.me/2014/11/haxe-working-with-javascript-libraries/)
+* [Изучаем haxe за Y минут](https://learnxinyminutes.com/docs/haxe/)
+* [Успешная история про Haxe](http://nadako.github.io/rants/posts/2015-03-26_haxe-success-russian.html) - рассказ о портировании портирование с JavaScript на Haxe
+* [angular2haxe](https://github.com/nweedon/angular2haxe) Разработка на Haxe и Angular
 
 ---
 
 <h3 id="angular-in-scala">Scala</h3>
+
+> Scala — мультипарадигмальный язык программирования, спроектированный кратким и типобезопасным для простого и быстрого создания компонентного программного обеспечения, сочетающий возможности функционального и объектно-ориентированного программирования. Язык программирования Scala является «симбиозом» Java и C#.
+
+* [Scala-lang.org](https://www.scala-lang.org/)
+
 <h4 id="scala-seed-projects">Основные источники</h4>
+
+* [play-angular](https://github.com/gdi2290/play-angular2) - серверный рендеринг Angular на Scala
 
 ---
 
 <h3 id="angular-components-with-bit">Bit</h3>
 
+> Представьте, что все ваши компоненты доступны вам в облаке, и все это доступно для вашей команды и синхронизировано во всех ваших проектах. Это и есть Bit.
+
+* [Bit](https://bitsrc.io/)
+* [Bit официальный репозиторий (Github)](https://github.com/teambit/bit)
+* [Bit-Javascript](https://github.com/teambit/bit-javascript)
+
 ---
 
 <h3 id="security">NgRx</h3>
 
+* [Введение в @ngrx/store](https://gist.github.com/btroncone/a6e4347326749f938510)
+* [Redux + Angular - Часть 1](http://orizens.com/wp/topics/adding-redux-with-ngrxstore-to-angular-2-part-1/)
+* [Redux + Angular - Часть 2 (Тестирование Reducers)](http://orizens.com/wp/topics/adding-redux-with-ngrxstore-to-angular2-part-2-testing-reducers/)
+* [Redux + Angular: отличия от традиционной модели](http://orizens.com/wp/topics/angular-2-ngrxstore-the-ngmodel-in-between-use-case-from-angular-1/)
+* [Angular, Ngrx/Store, Ngrx/Effects – Введение в функциональный подход к разработке приложений](http://orizens.com/wp/topics/angular-2-ngrxstore-ngrxeffects-intro-to-functional-approach-for-a-chain-of-actions/)
+* [Создание простых API для @ngrx/Effects](https://gist.github.com/peterbsmith2/ce94c0a5ddceb99bab24a761731d1f07)
+
 ---
 
 <h3 id="ngrx">Security</h3>
+
+* [Angular.io Security Guide](https://angular.io/guide/security) - краткое руководство по безопасности, включающее информацию о предотвращении межсайтового скриптинга (XSS), политики безопасности и безопасности контента
+* [Angular + OpenID](https://damienbod.com/2016/03/02/angular2-openid-connect-implicit-flow-with-identityserver4/)
+* [Angular + OAuth2](https://github.com/michaeloryl/angular2-bootstrap4-oauth2-webpack)
+* [Angular + OAuth2 OIDC](https://www.softwarearchitekt.at/post/2016/07/03/authentication-in-angular-2-with-oauth2-oidc-and-guards-for-the-newest-new-router-english-version.aspx)
+* [Angular пример аутентификации](https://github.com/auth0-blog/angular2-authentication-sample)
+
