@@ -188,6 +188,7 @@
 
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
+- [@ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер
 
 ---
 
@@ -528,6 +529,8 @@ export class MyComponent {
 
 * [Официальный Angular Style guide](https://angular.io/guide/styleguide)
 * [Описание того, как нужно составлять правила для TSLint](https://github.com/ng-seed/angular-tslint-rules)
+* [codelyzer](https://github.com/mgechev/codelyzer) - Линтер для Angular проектов
+* [angular-tslint-rules](https://github.com/ng-seed/angular-tslint-rules) - Сборник лучших правил TSLint & codelyzer
 
 ---
 
@@ -731,6 +734,10 @@ export class MyComponent {
 * [ngx-pipes](https://github.com/danrevah/ngx-pipes) набор полезных пайпов для Angular
 * [ngx-order-pipe](https://github.com/VadimDez/ngx-order-pipe) OrderBy - сортировка коллекций
 * [angular2-camelcase](https://github.com/previousdeveloper/angular2-camelcase) Пайп для преобразования строк в camelCase
+* [angular-pipes](https://github.com/fknop/angular-pipes) - Используем крутые пайпы
+* [ngx-pipes](https://github.com/danrevah/ngx-pipes) - Пайпы без единой зависимости
+* [ng-pipes](https://github.com/a8m/ng-pipes) -  Набор полезных пайпов
+* [angular-linky](https://github.com/dzonatan/angular2-linky) - Linky пайп
 
 ---
 
@@ -875,7 +882,7 @@ TypeScript является типизированным надмножеств�
 
 * [babel-preset-angular](https://github.com/shuhei/babel-preset-angular2) Babel пресеты (presets) для Angular
 * [babel-plugin-type-assertion](https://github.com/shuhei/babel-plugin-type-assertion) Babel плагин для поддержки типизации в JS
-    
+* [babel-plugin-angular-annotations](https://github.com/shuhei/babel-plugin-angular2-annotations) - Babel плагин для трансформации декораторов
 ---
 
 <h3 id="angular-in-es5">ES5</h3>
@@ -900,7 +907,7 @@ TypeScript является типизированным надмножеств�
 * [Ionic официальный репозиторий (GitHub)](https://github.com/ionic-team/ionic)
 * [Ionic подборка ресурсов](https://github.com/candelibas/awesome-ionic)
 * [Angular CLI Admin (Template)](https://github.com/jvitor83/angular-pwa-seed) Кроссплатформенный и кроссбраузерный стартер Angular  (Web/PWA, Mobile, Desktop) + Ionic
-
+* [angular-onsenui](https://github.com/onsenui/onsenui) - Крутой SDK для Angular, Vue, React
 ---
 
 <h3 id="meteor-in-angular">Meteor</h3>
@@ -996,7 +1003,10 @@ TypeScript является типизированным надмножеств�
 * [Redux + Angular: отличия от традиционной модели](http://orizens.com/wp/topics/angular-2-ngrxstore-the-ngmodel-in-between-use-case-from-angular-1/)
 * [Angular, Ngrx/Store, Ngrx/Effects – Введение в функциональный подход к разработке приложений](http://orizens.com/wp/topics/angular-2-ngrxstore-ngrxeffects-intro-to-functional-approach-for-a-chain-of-actions/)
 * [Создание простых API для @ngrx/Effects](https://gist.github.com/peterbsmith2/ce94c0a5ddceb99bab24a761731d1f07)
-
+* [redux-decorators](https://github.com/KarlPurk/redux-decorators) - Декораторы для работы с Redux
+* [@angular-redux/store](https://github.com/angular-redux/store) - Angular + Redux.
+* [@ngrx/store](https://github.com/ngrx/store) - RxJS state менеджер на основе концепции Redux
+* [mobx-angular](https://github.com/mobxjs/mobx-angular) - MobX + Angular
 ---
 
 <h3 id="ngrx">Security</h3>
@@ -1006,4 +1016,7 @@ TypeScript является типизированным надмножеств�
 * [Angular + OAuth2](https://github.com/michaeloryl/angular2-bootstrap4-oauth2-webpack)
 * [Angular + OAuth2 OIDC](https://www.softwarearchitekt.at/post/2016/07/03/authentication-in-angular-2-with-oauth2-oidc-and-guards-for-the-newest-new-router-english-version.aspx)
 * [Angular пример аутентификации](https://github.com/auth0-blog/angular2-authentication-sample)
-
+* [ng-ui-auth](https://github.com/ronzeidman/ng2-ui-auth) - Аутентификация на основе satellizer
+* [angular-token](https://github.com/neroniaky/angular2-token) - Служба аутентификации на основе сервиса токенов в Angular с поддержкой нескольких пользователей
+* [angular-oauth2-oidc](https://github.com/manfredsteyer/angular-oauth2-oidc) - OAuth 2 + OpenId Connect (OIDC)
+* [@ngx-auth/core](https://github.com/fulls1z3/ngx-auth) - Утилита аутентификации для Angular
