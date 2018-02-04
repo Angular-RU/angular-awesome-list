@@ -53,7 +53,7 @@
   * [Курсы и тренинги](#on-site-training)
   * [Подборка статей](#approach-and-explanation)
   * [Интеграция](#integrations)
-  * [Компоненты](#components-list)
+  * [Подборка компонентов](#components-list)
   * [Пайпы](#pipes-seed)
   * [Примеры приложений](#site-templates)
   * [Генераторы](#generators)
@@ -490,10 +490,10 @@ export class MyComponent {
 ### Starter Kit
 
 * [test-angular-seed-project](https://github.com/angular/angular2-seed) - Простой стартер Angular
- - [generator-ng-fullstack](https://github.com/ericmdantas/generator-ng-fullstack) - ng-fullstack yeoman генератор
- - [asaf-test](https://github.com/preboot/angular-library-seed) - Angular стартер от preboot
- - [angular-seed](https://github.com/mgechev/angular-seed) - Angular стартер от Minko Gechev - [clarity-seed](https://github.com/vmware/clarity-seed) - Clarity Design System's стартер
- - [Colmena CMS](https://github.com/colmena/colmena-cms) - Colmena CMS (LoopBack + Angular)
+* [generator-ng-fullstack](https://github.com/ericmdantas/generator-ng-fullstack) - ng-fullstack yeoman генератор
+* [asaf-test](https://github.com/preboot/angular-library-seed) - Angular стартер от preboot
+* [angular-seed](https://github.com/mgechev/angular-seed) - Angular стартер от Minko Gechev - [clarity-seed](https://github.com/vmware/clarity-seed) - Clarity Design System's стартер
+* [Colmena CMS](https://github.com/colmena/colmena-cms) - Colmena CMS (LoopBack + Angular)
 
 ---
 
@@ -693,7 +693,7 @@ export class MyComponent {
 
 ---
 
-<h3 id="components-list">Компоненты</h3>
+<h3 id="components-list">Подборка компонентов</h3>
 
 * [Material 2](https://github.com/angular/material2) - Компоненты от Material Design
 * [NG ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd) - Enterprise компоненты, основанные на Ant Design
@@ -783,6 +783,83 @@ export class MyComponent {
 * [ng-select](https://github.com/ng-select/ng-select) ng-select (Select, Multiselect, Autocomplete)
 * [ng-katex](https://github.com/garciparedes/ng-katex) Модуль для математических выражений с синтаксисом TeX
 * [ng-fullcalendar](https://github.com/Jamaks/ng-fullcalendar) Jquery календарь для Angular
+* [angular-modal](https://github.com/shlomiassaf/angular2-modal) - Angular + нативный Dialog компонент
+* [ng-bs3-modal](https://github.com/dougludlow/ng2-bs3-modal) - Angular + Bootstrap3 Компонент модального окна
+* [angular-toaster](https://github.com/stabzs/Angular2-Toaster) - Angular компонент асинхронных неблокирующих уведомлений (toaster)
+* [ng-toasty](https://github.com/akserg/ng2-toasty) - Angular Toasty компонент
+* [ng-notifications](https://github.com/alexcastillo/ng2-notifications) - Angular компонент с поддержкой Push Notifications
+* [ngx-toastr](https://github.com/scttcper/ngx-toastr) - Angular toastr
+* [@ngrx/notify](https://github.com/ngrx/notify) - Web уведомления на RxJS
+* [angular-notifications](https://github.com/flauc/angular2-notifications) - Простой и легкий в использовании компонент нотификаций и уведомлений
+* [angular-notifier](https://github.com/dominique-mueller/angular-notifier) - Отличная библиотека нотификаций с крутыми и настраиваемыми анимациями
+* [ng-toastr](https://github.com/PointInside/ng2-toastr) - Bootstrap toast
+* [angular-confirmation-popover](https://github.com/mattlewis92/angular-confirmation-popover) - Отображает всплывающее подтверждение загрузки (без jQuery или bootstrap)
+* [angular-datatable](https://github.com/mariuszfoltak/angular2-datatable) - DataTable компонент для Angular с сортировкой и пагинацией
+* [ng-easy-table](https://github.com/ssuperczynski/ng2-easy-table) - Простая таблица для Angular
+* [ag-grid-angular](https://github.com/ceolter/ag-grid-angular) - Ag-Grid компонент
+* [angular-tree-component](https://github.com/500tech/angular2-tree-component) - Простой компонент отображающий список в виде дерева
+* [ng-tree](https://github.com/valor-software/ng2-tree) - Компонент  для визуализации данных, которые могут быть представлены естественным образом в виде дерева
+* [ng-slim-loading-bar](https://github.com/akserg/ng2-slim-loading-bar) - компонент элемента загрузки на странице
+* [angular-ladda](https://github.com/moff/angular2-ladda) - Angular Ladda модуль
+* [ng-spin-kit](https://github.com/WoltersKluwerPL/ng-spin-kit) - SpinKit (спинер)
+* [ngx-progressbar](https://github.com/MurhafSousli/ngx-progressbar) - мощный progress bar
+* [ng-sidebar](https://github.com/arkon/ng-sidebar) - Angular sidebar компонент
+* [angular-highcharts](https://github.com/gevgeny/angular2-highcharts) - Highcharts компонент
+* [ng-nvd3](https://github.com/krispo/ng2-nvd3) - Angular компонент для nvd3
+* [angular-google-maps](https://github.com/SebastianM/angular2-google-maps) - Angular + Google Maps
+* [ng-map](https://github.com/ng2-ui/ng2-map) - Angular + Google Maps (директива)
+* [angular-esri4-components](https://github.com/kgs916/angular2-esri4-components) - Angula + ArcGIS API
+* [ngx-infinite-scroll](https://github.com/orizens/ngx-infinite-scroll) - Бесконечный скролл (директива)
+* [ng-parallax-scroll](https://github.com/ng2-ui/ng2-parallax-scroll) - Angular parallax
+* [angular-perfect-scrollbar](https://github.com/zefoy/ngx-perfect-scrollbar) - Angular scrollbar
+* [angular-swiper-wrapper](https://github.com/zefoy/ngx-swiper-wrapper) - Angular swiper
+* [@ngui/sticky](https://github.com/ng2-ui/sticky) - Angular "position: sticky" директива
+* [angular-contextmenu](https://github.com/isaacplmann/angular2-contextmenu) - Компонент контекстного меню
+* [angular-moment](https://github.com/urish/angular2-moment) - Moment.js пайпы (pipes)
+* [videogular](https://github.com/videogular/videogular2) - HTML5 video player + Angular
+* [ng-inline-svg](https://github.com/arkon/ng-inline-svg) - Angular директива для добавления SVG файлов в виде инлайн-элемента
+* [ng-sharebuttons](https://github.com/MurhafSousli/ng2-sharebuttons) - Кнопка "поделиться"
+* [ng-inline-editor](https://github.com/caballerog/ng2-inline-editor) - Нативный UI редактор
+* [ng-markdown-to-html](https://github.com/jfcere/ng2-markdown-to-html) - Markdown компонент
+* [ngx-no-animation-for-dinosaur](https://github.com/maxisam/ngx-no-animation-for-dinosaur) - Простое решение для отключения анимации для определенного браузера
+* [ng-datepicker](https://github.com/jkuri/ng2-datepicker) - Angular Datepicker
+* [mydatepicker](https://github.com/kekeh/mydatepicker) - Angular date picker
+* [ng-datetime](https://github.com/nkalinov/ng2-datetime) - Datetime picker
+* [ng-date-picker](https://github.com/vlio20/ng2-date-picker) - Крутой и настраиваемый date picker компонент
+* [angular-material-datepicker](https://github.com/koleary94/Angular-2-Datepicker) - Angular Datepicker + material design
+* [ngx-color-picker](https://github.com/zefoy/ngx-color-picker) - Color picker
+* [angular-color-picker](https://github.com/Alberplz/angular2-color-picker) - Angular Color Picker (директива)
+* [ng-color-picker](https://github.com/AndyMeps/ng2-color-picker) - Простой color picker
+* [ng-slider-component](https://github.com/Bogdan1975/ng2-slider-component) - Angular slider 
+* [angular-select](https://github.com/basvandenberg/angular2-select) - Нативный select 
+* [ng-completer](https://github.com/oferh/ng2-completer) - Angular autocomplete 
+* [ng-auto-complete](https://github.com/ng2-ui/ng2-auto-complete) - AutoComplete.
+* [ng-tag-input](https://github.com/Gbuomprisco/ng2-tag-input) - Tag Input 
+* [ng-dnd](https://github.com/akserg/ng2-dnd) - Angular 2 Drag-and-Drop without dependencies.
+* [ng-drag-drop](https://github.com/ObaidUrRehman/ng-drag-drop) - Drag & Drop
+* [angular-sortablejs](https://github.com/SortableJS/angular-sortablejs) - Angular + SortableJS
+* [soft-angular-mask](https://github.com/renatosistemasvc/soft-angular-mask) - Директива маски для ввода денежной валюты
+* [ng-ckeditor-codemirror](https://github.com/chymz/ng2-ckeditor) - Angular CKEditor 
+* [angular-voog-wysihtml](https://github.com/zefoy/ngx-voog-wysihtml) - Voog wysihtml
+* [angular-froala-wysiwyg](https://github.com/froala/angular2-froala-wysiwyg) - Froala WYSIWYG
+* [ngx-uploader](https://github.com/jkuri/ngx-uploader) - Angular файловый загрузчик
+* [angular-dropzone-wrapper](https://github.com/zefoy/ngx-dropzone-wrapper) - Angular  dropzone
+* [angular-autosize](https://github.com/stevepapa/angular2-autosize) - Angular-autosize директива для textarea
+* [angular-calendar](https://github.com/mattlewis92/angular2-calendar) - flexible календарь
+* [angular-fullcalendar](https://github.com/nekken/ng2-fullcalendar) - Angular fullcalendar
+* [ng2-img-cropper](https://github.com/cstefanache/angular2-img-cropper) - Angular Image Cropper
+* [angular-mdl](https://github.com/mseemann/angular2-mdl) - Angular material design lite
+* [igniteui-angular2](https://github.com/IgniteUI/igniteui-angular2) - Ignite UI
+* [igniteui-js-blocks](https://github.com/IgniteUI/igniteui-js-blocks) - Mobile-first нативный компонент
+* [devextreme-angular](https://github.com/DevExpress/devextreme-angular) - DevExtreme виджеты
+* [ng2-fullpage](https://github.com/meiblorn/ng2-fullpage) - Angular fullpage скроллинг
+* [ngresizable](https://github.com/mgechev/ngresizable) - Растягиваемые компоненты
+* [@angular/flex-layout](https://github.com/angular/flex-layout)
+* [ng2-bootstrap](https://github.com/valor-software/ng2-bootstrap) - Нативные директивы для Bootstrap
+* [@ng-bootstrap/ng-bootstrap](https://github.com/ng-bootstrap/ng-bootstrap) - Angular + Bootstrap
+* [angular-materialize](https://github.com/InfomediaLtd/angular2-materialize) - Angular + Materialize
+* [ng-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) - Semantic UI
+* [clarity-angular](https://github.com/vmware/clarity) - Clarity Design System
 
 ---
 
