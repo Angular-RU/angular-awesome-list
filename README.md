@@ -98,6 +98,7 @@
 
 * [Сайт](https://angular.io/)
 * [Блог](http://angularjs.blogspot.com/)
+* [Доска задач команды Angular (отсортированные по приоритету)](https://hq.angular.io/)
 * [Документация по фреймворку](https://angular.io/docs/js/latest/)
 * [Чит-лист частовстречающихся вещей в Angular](https://angular.io/guide/cheatsheet)
 * [Быстрый старт](https://angular.io/guide/quickstart)
