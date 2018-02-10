@@ -67,6 +67,7 @@
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
   * [TodoMVC](#todomvc)
+  * [Расширения для IDE's](#idea)
   * [TypeScript](#angular-in-typescript)
     * [TypeScript (основные ресурсы)](#typescript-general-resources)
     * [Основные источники](#typescript-seed-projects)
@@ -91,6 +92,9 @@
     * [React Native (основные ресурсы)](#react-native-general-resources)
   * [Haxe](#angular-in-haxe)
     * [Основные источники](#haxe-seed-projects)
+  * [Java](#angular-in-java)
+    * [Основные источники](#java-seed-projects)
+  * [Kotlin](#angular-in-kotlin)
   * [Scala](#angular-in-scala)
     * [Основные источники](#scala-seed-projects)
   * [Bit](#angular-components-with-bit)
@@ -923,7 +927,7 @@ export class MyComponent {
 <h3 id="i18n">i18n</h3>
 
 * [@ngx-translate/core](https://github.com/ngx-translate/core) - Удобная библиотека для работы с файлами локализаций (i18n)
-* [@angular-ru/ngx-i18n-combine](https://github.com/Angular-RU/ngx-i18n-combine) - Объединение файлов i18n из компонентов и общих файлы для ваших локализаций
+* [@angular-ru/ngx-i18n-combine](https://github.com/Angular-RU/ngx-i18n-combine) - Объединение файлов i18n из компонентов и общих файлы для ваших локализаций (json, ts, js, jsx, tsx)
 * [angular-l10n](https://github.com/robisim74/angular-l10n) - Библиот для перевода сообщений, дат и цифр
 * [@ngx-universal/translate-loader](https://github.com/fulls1z3/ngx-translate) - Лоадер, который обеспечивает переводы на стороне браузер или сервера
 
@@ -993,6 +997,15 @@ export class MyComponent {
 
 ---
 
+
+<h3 id="idea">Расширения для IDE's</h3>
+
+* [10 интересных расширений для VSCode](http://devboosts.com/2017/02/08/top-10-vs-code-extensions)
+* [7 обязательных расширений для VSCode](https://medium.com/frontend-coach/7-must-have-visual-studio-code-extensions-for-angular-af9c476147fd)
+* [Quora: какая IDE лучше для Angular?](https://www.quora.com/What-is-best-IDE-for-Angular-2)
+* [IntelliJ vs. NetBeans vs. Eclipse](https://jaxenter.com/angular-2-intellij-netbeans-eclipse-128461.html) - какая IDE лучше для старта?
+* [Angular IDE = Angular + TypeScript + Eclipse](https://www.genuitec.com/products/angular-ide/)
+---
 
 <h3 id="angular-in-typescript">TypeScript</h3>
 
@@ -1184,6 +1197,33 @@ TypeScript является типизированным надмножеств�
 
 * [play-angular](https://github.com/gdi2290/play-angular2) - серверный рендеринг Angular на Scala
 
+---
+
+<h3 id="angular-in-java">Java</h3>
+
+> Java — сильно типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, с помощью виртуальной Java-машины
+
+* [java.com](https://java.com/ru/)
+* [oracle.com/java](https://www.oracle.com/java/index.html)
+
+<h4 id="java-seed-projects">Основные источники</h4>
+
+* [Angular + Spring Boot](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/)
+* [CRUD Java Web Application: Spring Boot, MongoDB, Angular](https://www.djamware.com/post/5a792ecb80aca7059c142978/spring-boot-mongodb-and-angular-5-crud-java-web-application)
+* [Spring Boot API + Angular UI](https://github.com/oktadeveloper/spring-boot-angular-example)
+* [Angular для Java-разработчиков](https://www.youtube.com/watch?v=k8r76d8QzXs)
+* [Spring Boot + WebSockets + Angular](https://medium.com/oril/spring-boot-websockets-angular-5-f2f4b1c14cee)
+
+---
+
+<h3 id="angular-in-kotlin">Kotlin</h3>
+
+> Kotlin — статически типизированный язык программирования, работающий поверх JVM и разрабатываемый компанией JetBrains. Компилируется также в JavaScript и на другие платформы через инфраструктуру LLVM.
+
+* [Создаем надежное приложение с помощью Kotlin, Angular, TypeScript и Okta](https://scotch.io/tutorials/build-a-secure-notes-application-with-kotlin-typescript-and-okta)
+* [Angular для Kotlin](https://github.com/Yegair/kotlin-angular)
+* [Angular-Kotlin Starter](https://github.com/gbaldeck/angular-kotlin-starter)
+* [Пример крупного приложения на JHipster, Spring Boot, Kotlin, Angular, ngrx, Webpack](https://github.com/dancancro/great-big-example-application)
 ---
 
 <h3 id="angular-components-with-bit">Bit</h3>
