@@ -55,6 +55,14 @@
   * [Интеграция](#integrations)
   * [Подборка компонентов](#components-list)
   * [Пайпы](#pipes-seed)
+  * [Стукрутуры данных и манипуляции состоянием](#persistence)
+  * [Роутинг](#routing)
+  * [Валидация](#validation)
+  * [Логгирование](#logging)
+  * [i18n](#i18n)
+  * [Производительность](#perfomance)
+  * [Ленивая загрузка](#lazy-load)
+  * [Лоадеры](#loaders)
   * [Примеры приложений](#site-templates)
   * [Генераторы](#generators)
   * [Инструменты документации](#documentation-tools)
@@ -714,9 +722,7 @@ export class MyComponent {
 * [ag-grid](https://www.ag-grid.com/) Улучшенный Datagrid
 * [angular-query-builder](https://github.com/zebzhao/Angular-QueryBuilder) Усовершенствованные запросы на основе jquery QueryBuilder
 * [angular-grid](https://github.com/BTMorton/angular2-grid) drag/drop/resize сетка
-* [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплеминтирующая из AngularJS 1.x $cookies-сервис в Angular
 * [angular-fontawesome](https://github.com/travelist/angular2-fontawesome) Angular компоненты и директивы для Fontawesome
-* [angular-safeguard](https://github.com/MikaAK/angular-safeguard) Обертка над cookies/sessionStorage/localStorage
 * [angular-google-maps](https://github.com/SebastianM/angular-google-maps) Angular директивы для Google Maps
 * [angular-cesium](https://github.com/TGFTech/angular-cesium) Создание map web apps с использованием Cesium
 * [ng-radio-group](https://github.com/pleerock/ngx-select-controls) Angular директивы для radio/checkbox
@@ -730,7 +736,6 @@ export class MyComponent {
 * [fuel-ui](https://github.com/FuelInteractive/fuel-ui) Bootstrap 4 компоненты и директивы
 * [prime-ng](https://www.primefaces.org/primeng/)  Коллекция Primeng-компонентов
 * [ng-ace](https://github.com/seiyria/ng2-ace) Ace editor на Angular
-* [ng-storage](https://github.com/seiyria/ng2-storage) localStorage и sessionStorage обертки
 * [ng-fontawesome](https://github.com/seiyria/ng2-fontawesome) Простая директива для fontawesome
 * [ng-sweetalert2](https://github.com/seiyria/ng2-sweetalert2) Обертка над sweetalert2 
 * [angular-text-mask](https://github.com/text-mask/text-mask) Angular input маска (директива)
@@ -755,7 +760,6 @@ export class MyComponent {
 * [ngx-ui](https://github.com/swimlane/ngx-ui) - Библиотека стилей и компонентов ngx-ui
 * [Cloudinary](https://github.com/cloudinary/cloudinary_angular/tree/angular_next) - Angular SDK для управления изображениями и видео в облаке
 * [angular-simple-countdown](https://github.com/previousdeveloper/angular2-simple-countdown) - Простой countdown
-* [ng-http-cache](https://github.com/davguij/angular-http-cache) - Кеширование http-запросов
 * [ng-animate](https://github.com/jiayihu/ng-animate) - Коллекция крутых анимаций
 * [lottie-angular](https://github.com/chenqingspring/ng-lottie) - After Effects анимации для Angular
 * [ngx-restangular](https://github.com/2muchcoffeecom/ngx-restangular) - Restangular сервис
@@ -764,8 +768,8 @@ export class MyComponent {
 * [od-virtualscroll](https://github.com/dinony/od-virtualscroll) Бесконечный скролл на Observable
 * [angular-froala-wysiwyg](https://github.com/froala/angular-froala-wysiwyg) WYSIWYG HTML Editor на Angular
 * [ngx-meta](https://github.com/fulls1z3/ngx-meta) - Утилита Dynamic page для Angular Universal
+- [ng-meta](https://github.com/vinaygopinath/ng2-meta) - Динамические meta для SEO
 * [ngx-config](https://github.com/fulls1z3/ngx-config) - Настройки для Angular (Angular Universal loader)
-* [ngx-cache](https://github.com/fulls1z3/ngx-cache) - Кеширование в Angular
 * [ngx-i18n-router](https://github.com/fulls1z3/ngx-i18n-router) - Роутинг с учетом локализации
 * [ngx-auth](https://github.com/fulls1z3/ngx-auth)  Сервис аутентификации
 * [angular-promise-buttons](https://github.com/johannesjo/angular2-promise-buttons) - Кнопка загрузки
@@ -861,6 +865,9 @@ export class MyComponent {
 * [angular-materialize](https://github.com/InfomediaLtd/angular2-materialize) - Angular + Materialize
 * [ng-semantic-ui](https://github.com/edcarroll/ng2-semantic-ui) - Semantic UI
 * [clarity-angular](https://github.com/vmware/clarity) - Clarity Design System
+* [ng-pagination](https://github.com/michaelbromley/ng2-pagination) - Пагинатор
+* [ngx-clipboard](https://github.com/maxisam/ngx-clipboard) - Директива clipboard.js.
+* [ng-tour](https://github.com/isaacplmann/ng2-tour) - Построение информационных переходов по приложению
 
 ---
 
@@ -878,9 +885,79 @@ export class MyComponent {
 
 ---
 
+<h3 id="persistence">Стукрутуры данных и манипуляции состоянием</h3>
+
+* [angular-localstorage](https://github.com/marcj/angular2-localstorage) - Декоратор для автоматического сохранения и восстановления полей классов из LocalStorage
+* [ng-webstorage](https://github.com/PillowPillow/ng2-webstorage) - LocalStorage и SessionStorage менеджер
+* [ng-storage](https://github.com/seiyria/ng2-storage) localStorage и sessionStorage обертки
+* [angular-safeguard](https://github.com/MikaAK/angular-safeguard) - Обертка над cookies/sessionStorage/localStorage
+* [@ngx-cache/core](https://github.com/fulls1z3/ngx-cache) - Умное кеширование в Angular
+* [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплеминтирующая из AngularJS 1.x $cookies-сервис в Angular
+* [ng-http-cache](https://github.com/davguij/angular-http-cache) - Кеширование http-запросов
+
+---
+
+<h3 id="routing">Роутинг</h3>
+
+* [ng-breadcrumb](https://github.com/gmostert/ng2-breadcrumb) - генератор иерархии маршрутизации на основе вложенного роутинга
+* [ng-page-transition](https://github.com/bergben/ng2-page-transition) - Простой компонент с анимированными переходами при имезении маршрутизации
+* [@ngx-i18n-router/core](https://github.com/fulls1z3/ngx-i18n-router) - Инструмент интернационализации роутинга
+
+---
+
+<h3 id="validation">Валидация</h3>
+
+* [ng-validators](https://github.com/gangachris/ng-validators) - Простой валидатор реактивных форм, основанный на [validator.js](https://github.com/chriso/validator.js)
+* [ng-validation](https://github.com/yuyang041060120/angular2-validate) -Простая валидации на Angular
+* [ngx-dynamic-form-builder](https://github.com/EndyKaufman/ngx-dynamic-form-builder) - Крутой валидатор реактивных форм на основе [class-validator](https://github.com/typestack/class-validator) и [class-transformer](https://github.com/typestack/class-transformer)
+
+---
+
+<h3 id="logging">Логгирование</h3>
+
+* [angular-logger](https://github.com/code-chunks/angular2-logger) - Реализация log4j для angular
+* [@nsalaun/ng-logger](https://github.com/noemi-salaun/ng2-logger) - Простой сервис логгирования
+
+---
+
+<h3 id="i18n">i18n</h3>
+
+* [@ngx-translate/core](https://github.com/ngx-translate/core) - Удобная библиотека для работы с файлами локализаций (i18n)
+* [@angular-ru/ngx-i18n-combine](https://github.com/Angular-RU/ngx-i18n-combine) - Объединение файлов i18n из компонентов и общих файлы для ваших локализаций
+* [angular-l10n](https://github.com/robisim74/angular-l10n) - Библиот для перевода сообщений, дат и цифр
+* [@ngx-universal/translate-loader](https://github.com/fulls1z3/ngx-translate) - Лоадер, который обеспечивает переводы на стороне браузер или сервера
+
+---
+
+<h3 id="perfomance">Производительность</h3>
+
+* [angular-performance-checklist](https://github.com/mgechev/angular-performance-checklist) - чеклист советов по улучшению производительности приложений на Angular 
+* [@angularclass/idle-preload](https://github.com/AngularClass/angular2-idle-preload) - Idle Preload для предварительной загрузки асинхронных маршрутов
+
+---
+
+<h3 id="lazy-load">Ленивая загрузка</h3>
+
+* [ng-lazyload-image](https://github.com/tjoskar/ng2-lazyload-image) - Ленивая подргузка изображений на Agular
+* [ng-image-lazy-load](https://github.com/NathanWalker/ng2-image-lazy-load) - Лоадер для ленивой загрузки изображений
+
+---
+
+<h3 id="loaders">Лоадеры</h3>
+
+* [gulp-inline-ng-template](https://github.com/ludohenin/gulp-inline-ng2-template) - Gulp-плагин  для встраивания HTML и CSS в @Component-декоратор.
+* [angular-template-loader](https://github.com/TheLarkInn/angular2-template-loader) - Объединяет все html и css в единое целое при компиляции компонентов
+* [angular-router-loader](https://github.com/brandonroberts/angular-router-loader) - Webpack лоадер, который позволяет загружать модули на основе строки с помощью маршрутизатора
+ - [angular-hot-loader](https://github.com/mgechev/angular2-hot-loader) - Angular hot лоадер
+
+
+---
+
 <h3 id="site-templates">Примеры приложений</h3>
 
 * [NG-Dashboard](https://github.com/YagoLopez/ng-dashboard) - Dashboard для Angular 4+. Компоненты пользовательского интерфейса на основе [Material Light](https://github.com/YagoLopez/material-light?ref=awesome-angular). Компоненты диаграмм на основе [MetricsGraficsJS](https://www.metricsgraphicsjs.org). Map директива на основе [LeafletJS](http://leafletjs.com). [DEMO ONLINE](http://yagolopez.js.org/ng-dashboard/dist/)
+* [angular-iot](https://github.com/urish/angular2-iot) - Internet of Things директивы
+* [@manekinekko/angular-web-bluetooth](https://github.com/manekinekko/angular-web-bluetooth) - Bluetooth модуль для Angular
 
 <h3 id="generators">Генераторы</h3>
 
@@ -915,6 +992,7 @@ export class MyComponent {
 * [Официальный TodoMVC для Angular](http://todomvc.com/examples/angular2/)
 
 ---
+
 
 <h3 id="angular-in-typescript">TypeScript</h3>
 
@@ -958,6 +1036,7 @@ TypeScript является типизированным надмножеств�
 * [Reboard](https://github.com/ksiabani/reboard) - Angular, Material 2, ngx-charts от generator-ngx-rocket (Typescript, SASS, Webpack, Jasmine+Karma, Protractor, TSLint, Codelyzer, Stylelint, ngx-translate, Lodash, Angular Flex-Layout)
 * [Angular + Redux + Graphql + MySQL quickstart](https://github.com/rafaesc/fullstack-graphql-angular) - Простое приложение совместно с GraphQL, Angular CLI + Redux + Express + GraphQL + Sequelize (MySQL, Postgres, Sqlite, MSSQL).
 * [Angular5 + Firebase + Structure](https://github.com/naologic/angular5-starter) - Angular + Firebase 
+* [plugin-typescript](https://github.com/frankwallis/plugin-typescript) - TypeScript лоадер для SystemJS
 
 ---
 
