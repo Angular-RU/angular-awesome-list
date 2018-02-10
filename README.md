@@ -1216,13 +1216,6 @@ TypeScript является типизированным надмножеств�
 * [java.com](https://java.com/ru/)
 * [oracle.com/java](https://www.oracle.com/java/index.html)
 
-<h3 id="angular-in-java">Java</h3>
-
-> Java — сильно типизированный объектно-ориентированный язык программирования, разработанный компанией Sun Microsystems (в последующем приобретённой компанией Oracle). Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, с помощью виртуальной Java-машины
-
-* [java.com](https://java.com/ru/)
-* [oracle.com/java](https://www.oracle.com/java/index.html)
-
 <h4 id="java-seed-projects">Основные источники</h4>
 
 * [Angular + Spring Boot](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/)
@@ -1242,6 +1235,7 @@ TypeScript является типизированным надмножеств�
 * [Angular для Kotlin](https://github.com/Yegair/kotlin-angular)
 * [Angular-Kotlin Starter](https://github.com/gbaldeck/angular-kotlin-starter)
 * [Пример крупного приложения на JHipster, Spring Boot, Kotlin, Angular, ngrx, Webpack](https://github.com/dancancro/great-big-example-application)
+
 ---
 
 <h3 id="angular-components-with-bit">Bit</h3>
