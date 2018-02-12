@@ -124,7 +124,7 @@
 ##### Angular Team (эксперты из команды Angular)
 
 * [Мишко Хевери (@mhevery)](https://twitter.com/mhevery)
-* [Игор Минар (@mhevery)](https://twitter.com/mhevery)
+* [Игор Минар (@igorminar)](https://twitter.com/igorminar)
 * [Брэд Грин (bradlygreen)](https://twitter.com/bradlygreen)
 * [Наоми Блэк (@naomitraveller)](https://twitter.com/naomitraveller)
 * [Тобиас Бош (@tbosch1009)](https://twitter.com/tbosch1009)
