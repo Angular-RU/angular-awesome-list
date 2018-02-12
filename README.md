@@ -252,7 +252,7 @@ export class MyComponent {
 
 ```js
 @Component({
- template: 'my-component.component.html'
+ templateUrl: 'my.component.html'
 })
 export class MyComponent {
  
@@ -264,7 +264,7 @@ export class MyComponent {
 ```
 
 ```html
-<!-- my-component.component.html -->
+<!-- my.component.html -->
 <p>
   Интерполяция: {{ title }},  
   или так:      {{ this.title }}
