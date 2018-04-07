@@ -204,7 +204,7 @@
 
 * [Официальный репозиторий Angular Universal (GitHub)](https://github.com/angular/universal)
 * [Русскоязычный репозиторий Angular Universal (GitHub)](https://github.com/Angular-RU/angular-universal-starter)
-- [@ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер
+* [@ng-seed/universal](https://github.com/ng-seed/universal) - Angular Universal стартер
 
 ---
 
