@@ -17,7 +17,10 @@
 [![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)
 
 **Содержание**:
-
+* [Полезные книги](#awesome-books)
+  * [Чистый код](#awesome-clean-code-books)
+  * [Паттерны проектирования](#awesome-oop-books)
+  * [Чистая архитектура](#awesome-clean-architecture-books)
 * [Angular](#angular)
   * [Официальные ресурсы](#angular-official)
   * [Новости в twitter](#twitter)
@@ -102,6 +105,38 @@
   * [Security](#security)
   * [NgRx](#ngrx)
 --------
+
+<h2 id="awesome-books">Полезные книги</h2>
+
+> Книги о программировании для разного уровня специалистов. Все перечисленные ниже книги являются переводом с английского, поэтому по возможности рекомендуем читать их в оригинале.
+
+<h3 id="awesome-clean-code-books">Чистый код</h3>
+
+> О том, как правильно писать чистый и понятный код, какие приемы рефакторинга существуют.
+
+* [Чистый код, Роберт Мартин](https://www.ozon.ru/context/detail/id/28336354/)
+* [Рефакторинг, Мартин Фаулер](https://www.ozon.ru/context/detail/id/1308678/)
+* [Погружение в рефакторинг - бесплатная онлайн версия, Александр Швец](https://refactoring.guru/ru/refactoring)
+* [Совершенный код, Стив Макконнелл](https://www.ozon.ru/context/detail/id/142768363/)
+* [Идеальный программист, Роберт Мартин](https://www.ozon.ru/context/detail/id/135465064/)
+* [97 этюдов для программистов, Роберт Мартин](https://www.ozon.ru/context/detail/id/8684879/)
+* [Программист-фанатик, Чед Фаулер](https://www.ozon.ru/context/detail/id/31901152/)
+
+<h3 id="awesome-oop-books">Паттерны проектирования</h3>
+
+> Подробное описание популярных паттернов проектирования и примеры их использования.
+
+* [Приемы объектно-ориентированного программирования, Банда четырех](https://www.ozon.ru/context/detail/id/2457392/)
+* [Погружение в паттерны проектирования - бесплатная онлайн версия, Александр Швец](https://refactoring.guru/ru/design-patterns)
+* [Реактивные шаблоны проектирования, Роланд Кун](https://www.ozon.ru/context/detail/id/143822725/)
+
+<h3 id="awesome-clean-architecture-books">Чистая архитектура</h3>
+
+> Введение в чистую архитектуру, полезна для больших проектов. 
+
+* [Чистая архитектура, Роберт Мартин](https://www.ozon.ru/context/detail/id/144499396/)
+* [VIPER - адаптация чистой архитектуры, Rambler&CO](https://github.com/strongself/The-Book-of-VIPER)
+* [Архитектура корпоративных программных приложений, Мартин Фаулер](https://www.ozon.ru/context/detail/id/1616782/)
 
 <h2 id="angular">Angular</h2>
 
