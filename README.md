@@ -264,6 +264,14 @@
 * [Компоненты Materialize library (ng2-materialize)](https://github.com/sherweb/ng2-materialize)
 * [Material Light](https://github.com/YagoLopez/material-light) 
 * [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
+* [NG Bootstrap](https://github.com/valor-software/ngx-bootstrap)
+* [PrimeNG](https://www.primefaces.org/primeng/#/)
+* [Onsen UI](https://onsen.io/angular2/)
+* [NG-ZORRO](https://github.com/NG-ZORRO/ng-zorro-antd)
+* [NG Lightning](https://github.com/ng-lightning/ng-lightning)
+* [NG Semantic-UI](https://github.com/vladotesanovic/ngSemantic)
+* [ng2-charts](https://valor-software.com/ng2-charts/)
+* [Clarity](https://github.com/vmware/clarity)
 
 ---
 
