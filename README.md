@@ -264,6 +264,10 @@
 * [Компоненты Materialize library (ng2-materialize)](https://github.com/sherweb/ng2-materialize)
 * [Material Light](https://github.com/YagoLopez/material-light) 
 * [Легковесная библиотека на основе Material Design](https://github.com/src-zone/material)
+
+
+<h4 id="material">Other Design</h4>
+
 * [NG Bootstrap](https://github.com/valor-software/ngx-bootstrap)
 * [PrimeNG](https://www.primefaces.org/primeng/#/)
 * [Onsen UI](https://onsen.io/angular2/)
