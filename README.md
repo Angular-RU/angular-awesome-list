@@ -909,6 +909,7 @@ export class MyComponent {
 * [ng-pagination](https://github.com/michaelbromley/ng2-pagination) - Пагинатор
 * [ngx-clipboard](https://github.com/maxisam/ngx-clipboard) - Директива clipboard.js.
 * [ng-tour](https://github.com/isaacplmann/ng2-tour) - Построение информационных переходов по приложению
+* [sula](https://sula.ngx-kit.com) - UI-kit созданный на основе [ngx-kit](https://github.com/Angular-RU/angular-ngx-kit)
 
 ---
 
