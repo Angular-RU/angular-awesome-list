@@ -22,6 +22,7 @@
   * [Паттерны проектирования](#awesome-oop-books)
   * [Чистая архитектура](#awesome-clean-architecture-books)
 * [Angular](#angular)
+  * [Карта развития](https://github.com/sulco/angular-developer-roadmap)
   * [Официальные ресурсы](#angular-official)
   * [Новости в twitter](#twitter)
   * [Сообщества](#community)
@@ -143,6 +144,10 @@
 
 > Angular - это платформа для разработки мобильных и десктопных веб-приложений.
 
+<h3>Карта развития</h3>
+
+![img](https://raw.githubusercontent.com/sulco/angular-developer-roadmap/master/angular-dev-roadmap.png)
+
 <h3 id="angular">Официальные ресурсы</h3>
 
 * [Сайт](https://angular.io/)
@@ -152,6 +157,7 @@
 * [Чит-лист частовстречающихся вещей в Angular](https://angular.io/guide/cheatsheet)
 * [Быстрый старт](https://angular.io/guide/quickstart)
 * [GitHub репозиторий](https://github.com/angular/angular)
+* [Карта развития](https://github.com/sulco/angular-developer-roadmap)
 
 <h3 id="twitter">Новости в twitter</h3>
 
