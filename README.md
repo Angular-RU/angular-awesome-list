@@ -945,7 +945,7 @@ export class MyComponent {
 
 ---
 
-<h3 id="persistence">Стукрутуры данных и манипуляции состоянием</h3>
+<h3 id="persistence">Структуры данных и манипуляции состоянием</h3>
 
 * [angular-localstorage](https://github.com/marcj/angular2-localstorage) - Декоратор для автоматического сохранения и восстановления полей классов из LocalStorage
 * [ng-webstorage](https://github.com/PillowPillow/ng2-webstorage) - LocalStorage и SessionStorage менеджер
