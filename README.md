@@ -197,6 +197,10 @@
 * [Дебора Курата](https://twitter.com/deborahkurata)
 * [Минько Гечев](https://twitter.com/mgechev)
 * [Шай Резник](https://twitter.com/shai_reznik)
+* [Манфред Штайер](https://twitter.com/manfredsteyer)
+* [Юрий Струмфлойнер](https://twitter.com/juristr)
+* [Уильям Грасель](https://twitter.com/willgmbr)
+* [Алиса Найкол](https://twitter.com/AlyssaNicoll)
 
 ##### Остальные известные эксперты:
 
