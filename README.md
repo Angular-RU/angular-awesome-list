@@ -635,6 +635,7 @@ export class MyComponent {
 * [Angular - расширенные советы и рекомендации](https://www.youtube.com/watch?v=vyiyJCLlGwo&feature=youtu.be)
 * [Angular Fullstack](https://www.youtube.com/channel/UCRefxaAA-7PfezH3CY87fzw)
 * [Angular Master Class](https://www.udemy.com/angular-crash-course-for-beginners)
+* [Lear JavascriptRu: Angular Screencast](https://learn.javascript.ru/screencast/angular)
 
 ---
 
