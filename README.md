@@ -178,7 +178,7 @@
 * [Тьерри Шатель](https://twitter.com/ThierryChatel)
 * [Ури Шейк](https://twitter.com/urishaked)
 * [Гонсало Руис из Виллы Суарес](https://twitter.com/gruizdevilla)
-* [Джон Папа](https://twitter.com/sharondio)
+* [Шэрон Дио](https://twitter.com/sharondio)
 * [Джон Папа](https://twitter.com/John_Papa)
 * [Дэн Вахлин](https://twitter.com/danwahlin)
 * [Кристиан Вейер](https://twitter.com/christianweyer)
