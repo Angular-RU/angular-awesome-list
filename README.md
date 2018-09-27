@@ -23,6 +23,7 @@
   * [Чистая архитектура](#awesome-clean-architecture-books)
 * [Angular](#angular)
   * [Карта развития](https://github.com/sulco/angular-developer-roadmap)
+  * [Список ресурсов для развития](https://github.com/avatsaev/angular-learning-resources)
   * [Официальные ресурсы](#angular-official)
   * [Новости в twitter](#twitter)
   * [Сообщества](#community)
@@ -147,6 +148,10 @@
 <h3>Карта развития</h3>
 
 ![img](https://raw.githubusercontent.com/sulco/angular-developer-roadmap/master/angular-dev-roadmap.png)
+
+<h3>Список ресурсов для развития</h3>
+
+* [angular-learning-resources](https://github.com/avatsaev/angular-learning-resources)
 
 <h3 id="angular">Официальные ресурсы</h3>
 
