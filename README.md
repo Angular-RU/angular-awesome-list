@@ -206,6 +206,7 @@
 * [Юрий Струмфлойнер](https://twitter.com/juristr)
 * [Уильям Грасель](https://twitter.com/willgmbr)
 * [Алиса Найкол](https://twitter.com/AlyssaNicoll)
+* [Нир Кауфман](https://twitter.com/nirkaufman)
 
 ##### Остальные известные эксперты:
 
