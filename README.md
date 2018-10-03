@@ -292,6 +292,7 @@
 * [NG Semantic-UI](https://github.com/vladotesanovic/ngSemantic)
 * [ng2-charts](https://valor-software.com/ng2-charts/)
 * [Clarity](https://github.com/vmware/clarity)
+* [Nebular](https://github.com/akveo/nebular)
 
 ---
 
