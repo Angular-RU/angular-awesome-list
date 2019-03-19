@@ -858,7 +858,7 @@ export class MyComponent {
 * [nebular](https://github.com/akveo/nebular) - Фреймворк Nebular основанный на Angular
 * [ng-select](https://github.com/ng-select/ng-select) ng-select (Select, Multiselect, Autocomplete)
 * [ng-katex](https://github.com/garciparedes/ng-katex) Модуль для математических выражений с синтаксисом TeX
-* [ng-fullcalendar](https://github.com/Jamaks/ng-fullcalendar) Jquery календарь для Angular
+* [ng-fullcalendar](https://github.com/Jamaks/ng-fullcalendar) календарь для Angular
 * [angular-modal](https://github.com/shlomiassaf/angular2-modal) - Angular + нативный Dialog компонент
 * [ng-bs3-modal](https://github.com/dougludlow/ng2-bs3-modal) - Angular + Bootstrap3 Компонент модального окна
 * [angular-toaster](https://github.com/stabzs/Angular2-Toaster) - Angular компонент асинхронных неблокирующих уведомлений (toaster)
