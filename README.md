@@ -216,7 +216,7 @@
 * [Джефф Кросс (@jeffbcross)](https://twitter.com/jeffbcross)
 * [Виктор Савкин (@victorsavkin)](https://twitter.com/victorsavkin)
 * [Павел Козловский (@pkozlowski_os)](https://twitter.com/pkozlowski_os)
-* [Алексей Охрименко (@Ai_boy)](https://twitter.com/Ai_boy)
+* [Алексей Охрименко (@obenjiro)](https://twitter.com/obenjiro)
 
 ##### Сообщества:
 
