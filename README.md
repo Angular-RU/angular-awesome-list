@@ -1,4 +1,4 @@
-![preview](./media/preview.png)
+![](./media/preview.png)
 
 # Добро пожаловать на Angular-RU
 
