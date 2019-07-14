@@ -12,10 +12,6 @@
 
 [![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/~angular)
 
-**Current Browser support for Angular:**
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/angular2-ci.svg)](https://saucelabs.com/u/angular2-ci)
-
 **Содержание**:
 
 * [Полезные книги](./#awesome-books)
