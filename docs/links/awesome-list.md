@@ -1,6 +1,6 @@
 # Список ресурсов
 
- [![Awesome Angular](../../.gitbook/assets/awesome-angular.png)](https://angular-ru.github.io)
+ [![Awesome Angular](awesome-angular.png)](https://angular-ru.github.io)
 
 ## Awesome Angular [![Awesome TipeIO](https://img.shields.io/badge/Awesome%20Angular-@TipeIO-6C6AE7.svg)](https://github.com/gdi2290/awesome-angular) [![Awesome devarchy.com](https://img.shields.io/badge/Awesome%20Angular-@devarchy.com-86BDC1.svg)](https://github.com/brillout/awesome-angular-components)
 
