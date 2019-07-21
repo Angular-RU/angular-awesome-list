@@ -1,18 +1,14 @@
 # Table of contents
 
-## Russian meetups
-
-* [Подать доклад](./meetups/meetups.md)
-
 ## Разработки сообщества
 
 * [@angular-ru/logger](https://github.com/Angular-RU/angular-logger)
 * [@angular-ru/ng-excel-builder](https://www.npmjs.com/package/@angular-ru/ng-excel-builder)
 * [@angular-ru/autowired](https://github.com/Angular-RU/autowired)
 
-## Полезные ссылки
+## Полезные материалы
 
-* [Список ресурсов на русском](./links/awesome-list.md)
+* [Вопросы на собеседовании по Angular](https://github.com/Angular-RU/angular-ru-interview-questions)
 * [Карта развития](https://github.com/sulco/angular-developer-roadmap)
 
 
@@ -22,3 +18,6 @@
 * [angular-ngrx-starter](https://github.com/Angular-RU/angular-ngrx-starter)
 * [angular-storybook-starter](https://github.com/Angular-RU/angular-storybook-starter)
 
+## Russian meetups
+
+* [Подать доклад](./meetups/meetups.md)
