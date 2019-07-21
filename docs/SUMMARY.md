@@ -8,7 +8,7 @@
 
 ## Полезные материалы
 
-* [Вопросы на собеседовании по Angular](https://github.com/Angular-RU/angular-ru-interview-questions)
+* [Вопросы на собеседовании](https://github.com/Angular-RU/angular-ru-interview-questions)
 * [Карта развития](https://github.com/sulco/angular-developer-roadmap)
 
 
