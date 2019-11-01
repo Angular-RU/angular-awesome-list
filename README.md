@@ -158,7 +158,7 @@
 * [Блог](http://angularjs.blogspot.com/)
 * [Доска задач команды Angular \(отсортированные по приоритету\)](https://hq.angular.io/)
 * [Документация по фреймворку](https://angular.io/docs/js/latest/)
-* [Чит-лист частовстречающихся вещей в Angular](https://angular.io/guide/cheatsheet)
+* [Чит-лист часто встречающихся вещей в Angular](https://angular.io/guide/cheatsheet)
 * [Быстрый старт](https://angular.io/guide/quickstart)
 * [GitHub репозиторий](https://github.com/angular/angular)
 * [Карта развития](https://github.com/sulco/angular-developer-roadmap)
@@ -243,7 +243,7 @@
 * [Вопросы по Angular на StackOverflow](https://stackoverflow.com/questions/tagged/angular)
 * [Angular на Reddit](https://www.reddit.com/r/Angular2/)
 * [Подкасты от AngularAir](http://angularair.com/)
-* [Подкатсы от Devchat по Angular](https://devchat.tv/adv-in-angular)
+* [Подкасты от Devchat по Angular](https://devchat.tv/adv-in-angular)
 * [Журнал ng-newsletter](http://www.ng-newsletter.com)
 * [Витрина приложений от Angular Expo](http://angularexpo.com/)
 * [Чат от AngularBuddies в Slack](https://angularbuddies.slack.com/messages/ng-2/)
@@ -527,7 +527,7 @@ export class MyComponent {
 
 * [Официальная документация](https://angular.io/guide/aot-compiler)
 * [AOT в Angular](http://blog.mgechev.com/2016/08/14/ahead-of-time-compilation-angular-offline-precompilation/)
-* [Сборка Angular приложения для продакшина](http://blog.mgechev.com/2016/06/26/tree-shaking-angular2-production-build-rollup-javascript/)
+* [Сборка Angular приложения для продакшена](http://blog.mgechev.com/2016/06/26/tree-shaking-angular2-production-build-rollup-javascript/)
 * [Прояснения в Ahead-Of-Time компиляции в Angular](http://slides.com/wassimchegham/demystifying-ahead-of-time-compilation-in-angular-2-aot-jit)
 * [Несколько решений по работе с Ahead of Time \(AOT\)](https://blog.craftlab.hu/multiple-solutions-for-angular-ahead-of-time-aot-compilation-c474d9a0d508)
 * [Пример кода с Webpack и AOT](https://github.com/blacksonic/angular2-aot-webpack)
@@ -633,7 +633,7 @@ export class MyComponent {
 * [Создание нативных мобильных приложений с Angular and NativeScript​ - Sebastian Witalec](https://www.youtube.com/watch?v=4SbiiyRSIwo)
 * [Angular Data Flow – Jeff Cross, Rob Wormald and Alex Rickabaugh](https://www.youtube.com/watch?v=bVI5gGTEQ_U)
 * [Стратегии итеративных обновлений больших Angular-приложений – Jen Bourey](https://www.youtube.com/watch?v=8tGcdaItj0I)
-* [Отладка Angular приложений с ипсользованием Batarangle – Yuri Takhteyev and Igor Krivanov](https://www.youtube.com/watch?v=cAC4d3KIQcM)
+* [Отладка Angular приложений с использованием Batarangle – Yuri Takhteyev and Igor Krivanov](https://www.youtube.com/watch?v=cAC4d3KIQcM)
 * [Разработка приложений с Firebase and Angular - Sara Robinson](https://www.youtube.com/watch?v=RD0xYicNcaY)
 * [Концепции Angular - Victor Savkin and Tobias Bosch](https://www.youtube.com/watch?v=4YmnbGoh49U)
 * [Модульность Angular приложений – Pawel Kozlowski](https://www.youtube.com/watch?v=9odY9Rh5kTQ)
@@ -770,7 +770,7 @@ export class MyComponent {
 * [ng-fullpage](https://github.com/meiblorn/ngx-fullpage) Fullpage скролл на основе fullPage.js
 * [file-droppa](https://github.com/ptkach/fileDroppa) Простой загрузчик файлов на основе drag and drop
 * [ngx-img-fallback](https://github.com/VadimDez/ngx-img-fallback) Placeholder загрузки для image и image error
-* [angular-busy](https://github.com/devyumao/angular2-busy) Индекатор загрузки для Promise, Observable's
+* [angular-busy](https://github.com/devyumao/angular2-busy) Индикатор загрузки для Promise, Observable's
 * [ng-pdf-viewer](https://github.com/VadimDez/ng2-pdf-viewer) PDF viewer на Angular
 * [Covalent](https://teradata.github.io/covalent/) - UI набор компонентов на основе Material Design
 * [ng2-alfresco-core](https://github.com/Alfresco/alfresco-ng2-components) - Alfresco набор компонентов
@@ -833,7 +833,7 @@ export class MyComponent {
 * [ng-tree](https://github.com/valor-software/ng2-tree) - Компонент  для визуализации данных, которые могут быть представлены естественным образом в виде дерева
 * [ng-slim-loading-bar](https://github.com/akserg/ng2-slim-loading-bar) - компонент элемента загрузки на странице
 * [angular-ladda](https://github.com/moff/angular2-ladda) - Angular Ladda модуль
-* [ng-spin-kit](https://github.com/WoltersKluwerPL/ng-spin-kit) - SpinKit \(спинер\)
+* [ng-spin-kit](https://github.com/WoltersKluwerPL/ng-spin-kit) - SpinKit \(спиннер\)
 * [ngx-progressbar](https://github.com/MurhafSousli/ngx-progressbar) - мощный progress bar
 * [ng-sidebar](https://github.com/arkon/ng-sidebar) - Angular sidebar компонент
 * [angular-highcharts](https://github.com/gevgeny/angular2-highcharts) - Highcharts компонент
@@ -916,7 +916,7 @@ export class MyComponent {
 * [ng-storage](https://github.com/seiyria/ng2-storage) localStorage и sessionStorage обертки
 * [angular-safeguard](https://github.com/MikaAK/angular-safeguard) - Обертка над cookies/sessionStorage/localStorage
 * [@ngx-cache/core](https://github.com/fulls1z3/ngx-cache) - Умное кеширование в Angular
-* [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплеминтирующая из AngularJS 1.x $cookies-сервис в Angular
+* [angular-cookie](https://github.com/salemdar/angular2-cookie) Библиотека имплементирующая из AngularJS 1.x $cookies-сервис в Angular
 * [ng-http-cache](https://github.com/davguij/angular-http-cache) - Кеширование http-запросов
 
 #### Роутинг <a id="routing"></a>
@@ -940,7 +940,7 @@ export class MyComponent {
 
 * [@ngx-translate/core](https://github.com/ngx-translate/core) - Удобная библиотека для работы с файлами локализаций \(i18n\)
 * [@angular-ru/ngx-i18n-combine](https://github.com/Angular-RU/ngx-i18n-combine) - Объединение файлов i18n из компонентов и общих файлы для ваших локализаций \(json, ts, js, jsx, tsx\)
-* [angular-l10n](https://github.com/robisim74/angular-l10n) - Библиот для перевода сообщений, дат и цифр
+* [angular-l10n](https://github.com/robisim74/angular-l10n) - Библиотека для перевода сообщений, дат и цифр
 * [@ngx-universal/translate-loader](https://github.com/fulls1z3/ngx-translate) - Лоадер, который обеспечивает переводы на стороне браузер или сервера
 
 #### Производительность <a id="perfomance"></a>
@@ -1126,7 +1126,7 @@ TypeScript является типизированным надмножеств�
 
 #### NativeScript <a id="angular-in-nativescript"></a>
 
-> Создайвайте действительно нативные iOS, Android приложения на JS \(TS\) + CSS. NativeScript - кроссплатформенный фреймворк с открытым исходным кодом.
+> Создавайте действительно нативные iOS, Android приложения на JS \(TS\) + CSS. NativeScript - кроссплатформенный фреймворк с открытым исходным кодом.
 
 **NativeScript \(основные ресурсы\)**
 

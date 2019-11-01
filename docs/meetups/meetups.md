@@ -44,7 +44,7 @@ Angular — один из немногих фреймворков без обё�
 </details>
 
 <details>
-  <summary><b>Испольщование динамических форм с ngx-formly</b> – Олег Кургускин</summary>
+  <summary><b>Использование динамических форм с ngx-formly</b> – Олег Кургускин</summary>
   <a href="https://youtu.be/aTnZyu53zSE?t=420">
     <br><img src="https://habrastorage.org/webt/2q/xp/ct/2qxpct2txhxfgjkkkrmxknktelo.png" align="center" height="300px"/><br>
     Перейти к видео<br>
