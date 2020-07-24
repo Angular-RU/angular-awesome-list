@@ -896,6 +896,8 @@ export class MyComponent {
 * [ngx-clipboard](https://github.com/maxisam/ngx-clipboard) - Директива clipboard.js.
 * [ng-tour](https://github.com/isaacplmann/ng2-tour) - Построение информационных переходов по приложению
 * [sula](https://sula.ngx-kit.com) - UI-kit созданный на основе [ngx-kit](https://github.com/Angular-RU/angular-ngx-kit)
+* [ckeditor4-angular](https://github.com/ckeditor/ckeditor4-angular) - An official CKEditor 4 rich text editor component for Angular 2+
+* [ckeditor5-angular](https://github.com/ckeditor/ckeditor5-angular) - An official CKEditor 5 rich text editor component for Angular 2+
 
 #### Пайпы \(pipes\) <a id="pipes-seed"></a>
 
