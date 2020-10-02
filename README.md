@@ -613,6 +613,7 @@ export class MyComponent {
 * [Channel9 - Будущее TypeScript](https://channel9.msdn.com/Events/Build/2015/3-644)
 * [Channel9 - Создание кроссплатформенных приложений с Angular](https://channel9.msdn.com/Events/Build/2016/T627)
 * [Code School - Разгоняем Angular](https://www.codeschool.com/courses/accelerating-through-angular)
+* [Angular Pro Скринкаст](https://www.youtube.com/playlist?list=PLLf-VBOaoVk3RI62s7nK5RD_yMKGCxAdL)
 * [Angular - типизированное хранилище](https://www.youtube.com/watch?v=bEkPEnudm7s&feature=youtu.be)
 * [Angular - расширенные советы и рекомендации](https://www.youtube.com/watch?v=vyiyJCLlGwo&feature=youtu.be)
 * [Angular Fullstack](https://www.youtube.com/channel/UCRefxaAA-7PfezH3CY87fzw)
