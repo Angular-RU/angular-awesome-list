@@ -899,6 +899,7 @@ export class MyComponent {
 * [sula](https://sula.ngx-kit.com) - UI-kit созданный на основе [ngx-kit](https://github.com/Angular-RU/angular-ngx-kit)
 * [ckeditor4-angular](https://github.com/ckeditor/ckeditor4-angular) - An official CKEditor 4 rich text editor component for Angular 2+
 * [ckeditor5-angular](https://github.com/ckeditor/ckeditor5-angular) - An official CKEditor 5 rich text editor component for Angular 2+
+* [bmb-ripple](https://github.com/bmarvinb/bmb-ripple) - Директива которая добавляет эффект ряби на DOM-элемент, очень легковесная и с гибкой настройкой.
 
 #### Пайпы \(pipes\) <a id="pipes-seed"></a>
 
